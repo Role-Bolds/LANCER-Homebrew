@@ -1,0 +1,63 @@
+[ 
+  {
+  "id": "mf_magarac",
+  "source": "G&S",
+  "name": "MAGARAC",
+  "mechtype": [
+    "Support"
+  ],
+  "y_pos": 18,
+  "description": "Imagine it, won't you? We just take one of the orbital forges... and we put legs on it. We make it make things. The smiths and engineers all subalterns networked under a Mother Goose clone and Pilot working in tandem. A fortress. A factory. It'll turn back death. It'll do everything we need to make our Promise. No more working into the grave. Just this. A magnum opus.",
+  "mounts": [
+    "Flex"
+  ],
+  "stats": {
+    "size": 4,
+    "armor": 2,
+    "hp": 12,
+    "evasion": 6,
+    "edef": 6,
+    "heatcap": 5,
+    "repcap": 10,
+    "sensor_range": 5,
+    "tech_attack": 0,
+    "save": 10,
+    "speed": 2,
+    "sp": 6
+  },
+  "traits": [
+    {
+      "name": "Behemoth",
+      "description": "Allies may end their movement within the Magarac's spaces and adjacent allies may use it as Hard Cover. The Magarac cannot take the Hide action, nor benefit from Invisibility."
+    },
+    {
+      "name": "Walking Factory",
+      "description": "At your discretion, other characters adjacent to or within Burst 2 of the Magarac can spend its Repairs as their own, many automated arms and subaltern engineers rushing to do the work."
+    },
+	{
+      "name": "Entrench",
+      "description": "When the Magarac is Immobilized or spends a Quick Action to become Immobilized until the start of its next turn, it gains Hard Cover and creates a Burst 1 of Difficult and Dangerous (Kinetic) Terrain for the same duration as it hastily erects spiked palisades."
+    },
+	{
+      "name": "Slow",
+      "description": "The Magarac has +1 Difficulty on Agility checks and saves"
+    }
+  ],
+  "core_system": {
+    "name": "Brotherhood Automated Factory-Fortress",
+    "description": "Look, behold, it's almost ready. It is everything we’ve worked for over the centuries. With this, we won’t have to work for the Promised Land anymore. It’ll be here. In the Factory. In the Fortress. A mech built our fortunes, a mech will make everyone’s fortunes. Teams of subaltern engineers and automated armoring systems. We built the entire mech around an orbital-forge grade printer. It’ll make a miracle. We’ve waited so long for this day, someone to take the death away. We’re doing it, by our own hands. No one else will. We’ll make sure of it. No one has to die, not today, not ever again. I promise. -Charity Zahedi",
+    "active_name": "Overclock Production Modules - Turn Back Death",
+    "active_effect": "For the rest of the scene, 1/round when an ally within your sensor range would Lose Structure or become Destroyed, you may as a reaction roll 1d6. On a 3+ their HP is set to 1 and they do not lose the Structure or become Destroyed. If an ally is adjacent to you, this effect happens automatically with no need to roll.",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      }
+    ],
+	      "passive_name": "Ferroreactive Armor",
+      "passive_effect": "Each time this mech takes damage from a source owned by a hostile character (even if that damage is reduced or ignored), increase it’s armor by 1 for the rest of this scene, up to a maximum increase of 6 (you can use a die to track this)."
+  },
+  "data_type": "frame",
+  "aptitude": {},
+  "image_url": "https://i.imgur.com/jBtMi83.png"
+  }
+]
