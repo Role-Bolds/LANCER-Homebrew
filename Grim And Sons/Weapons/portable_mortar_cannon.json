@@ -1,0 +1,40 @@
+[
+  {
+    "source": "G&S",
+    "license": "Magarac",
+    "license_level": 2,
+    "effect": "",
+    "description": "A more powerful version of the weapon-printers common to the Magarac license, the Portable Mortar Cannon allows a pilot to print a short-lived artillery piece that can help it live up to the title of “Factory-Fortress”.",
+    "data_type": "weapon",
+    "aptitude": {},
+    "id": "GS_portable_mortar_cannon",
+    "name": "PORTABLE MORTAR CANNON",
+    "mount": "Main",
+    "type": "Cannon",
+    "range": [
+      {
+        "type": "range",
+        "val": 10
+      },
+	  {
+        "type": "blast",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "explosive",
+        "val": "2d6+2"
+      }
+    ],
+    "description": "",
+    "tags": [
+      {
+        "id": "tg_emplacement"
+      },
+      {
+        "id": "Arcing"
+      }
+    ]
+  }
+]
