@@ -1,2 +1,2 @@
-# LANGER-Homebrew
+# LANCER-Homebrew
 Repository for LANCER homebrew
