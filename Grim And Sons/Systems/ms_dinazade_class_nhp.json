@@ -1,0 +1,39 @@
+{
+    "id": "ms_dinazade_class_nhp",
+    "name": "DINAZADE-Class NHP",
+    "type": "Tech",
+    "sp": 3,
+    "tags": [
+        {
+            "id": "tg_ai"
+        },
+        {
+            "id": "tg_unique"
+        },
+        {
+            "id": "tg_full_tech"
+        },
+        {
+            "id": "tg_heat_self",
+            "val": 4
+        }
+    ],
+    "source": "G&S",
+    "license": "SCHEHERAZADE",
+    "license_level": 3,
+    "effect": {
+        "effect_type": "AI",
+        "detail": "Your mech gains the AI property and the following full tech action.",
+        "abilities": [
+            {
+                "name": "KING-SLAYING VICTORY",
+                "effect_type": "Tech",
+                "activation": "Full",
+                "detail": "Pick 1 standard enemy or 2 grunts within Sensor range. Both you and the game master roll 1d20, that cannot be modified or exchanged in any way. If you roll higher than the GM, you force those enemies to become Allied Actors for 3 Rounds and this action cannot be used again this Scene.  If the GM rolls higher, this action fails and cannot be used again in the scene. If you tie, the action fails, but the ability may be used again this scene."
+            }
+        ]
+    },
+    "description": "She lives in the Mirrors. She picked you. She always will, because she always has. That is the Nature of Mirror-Logic. Do you understand? Can you understand? Can any of us? What is she? We aren’t sure. She allows us to chain her, to keep her locked away, to tell us stories.<br><br>Don’t listen too closely. Cycle her every 1001 Standard Days.",
+    "data_type": "system",
+    "aptitude": {}
+}

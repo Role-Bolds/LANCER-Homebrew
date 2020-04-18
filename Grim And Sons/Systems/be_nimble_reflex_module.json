@@ -1,0 +1,17 @@
+{
+    "name": "“Be Nimble!” Reflex Module",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "G&S",
+    "license": "JACK",
+    "license_level": 1,
+    "effect": "Gain the Quickdraw reaction: Quickdraw - When an enemy attack misses you, you may immediately fire with a single Aux weapon at the triggering actor. If you hit with this attack, in addition to normal damage, they suffer Knockback 2",
+    "description": "A sort of “recorded muscle memory” that is installed into a mech, allowing for incredible feats of... mostly shooting right back at anyone dumb enough to open fire on you. An odd little quirk of the Reflex Module is that many pilots report a better subjectivity sync with their Jack; something G&S marks up to the comforting feeling of muscle memory. Even if the muscle is myomar.",
+    "data_type": "system",
+    "aptitude": {}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "“Boarkiller” Reflex Modules",
+  "type": "System",
+  "sp": 2,
+  "tags": [
+    {
+      "id": "tg_limited",
+      "val": 3
+    },
+    {
+      "id": "tg_heat_self",
+      "val": 2
+    }
+  ],
+  "source": "G&S",
+  "license": "VOLK",
+  "license_level": 1,
+  "effect": "When you hit with a Melee attack, you may burn one or more charges from this system to give the attack +1 Knockback per charge spent. If the knockback exceeds 3+, the target is also knocked Prone.",
+  "description": "A reflex module is a sort of “Pre-recorded muscle memory”, usually it goes in people... We at G&S managed to make one or two big enough for mechs, even if the “Boarkiller” type tends to burn itself out in long missions... But hey! If you use it, your mech can use some of the finest techniques of the Rockstansky Clan.",
+  "data_type": "system",
+  "aptitude": {}
+}

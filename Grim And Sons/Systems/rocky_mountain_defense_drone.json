@@ -1,0 +1,21 @@
+{
+  "name": "Rocky Mountain Defense Drone",
+  "type": "Drone",
+  "sp": 2,
+  "tags": [
+    {
+      "id": "tg_limited",
+      "val": 2
+    },
+    {
+      "id": "tg_quick_action"
+    }
+  ],
+  "source": "G&S",
+  "license": "BUNYAN",
+  "license_level": 3,
+  "effect": "When this drone is placed adjacent to your mech, it creates a Line 5, 3 High shimmering shield that blocks line of sight for enemy actors, but not allied actors. The Line is centered on the drone who may be attacked, though it benefits at all times from Hard Cover. The shield lasts until the drone is destroyed or the scene ends.",
+  "description": "There’s this story, from the Vaults, (from the Homeland, from Cradle) about a giant of a man who with an ax, an ox, and his will, tore mountains up from flat plains to defend his countrymen from an invading army lead by an evil saint. We made this, so you can be a hero too. Use it well pilot, use it well",
+  "data_type": "system",
+  "aptitude": {}
+}

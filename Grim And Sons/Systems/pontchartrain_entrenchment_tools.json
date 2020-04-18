@@ -1,0 +1,17 @@
+{
+    "name": "“Pontchartrain” Entrenchment Tool",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "source": "G&S",
+    "license": "BUNYAN",
+    "license_level": 2,
+    "effect": "Draw a Line 4 of Difficult Terrain adjacent to your mech. If any of the spaces of the line intersect with Difficult Terrain already present on the map, it upgrades to Dangerous Terrain (Kinetic).",
+    "description": "Sometimes, you just need a fuckoff big shovel. So that’s what we made! And then we put some of the smaller terraforming tools we use for KINGDOM Colonies into it! Now you’ve got a lil hand terraformer! It turns regular ground into a dangerous line that the enemy will think twice about crossing!",
+    "data_type": "system",
+    "aptitude": {}
+}

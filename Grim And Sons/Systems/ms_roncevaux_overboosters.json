@@ -1,0 +1,28 @@
+{
+    "id": "ms_roncevaux_overboosters",
+    "name": "Roncevaux Overboosters",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+        {
+            "id": "tg_heat_self",
+            "val": 1
+        },
+        {
+            "id": "tg_unique"
+        },
+        {
+            "id": "tg_free_action"
+        }
+    ],
+    "source": "G&S",
+    "license": "ORLANDO",
+    "license_level": 1,
+    "effect": {
+        "effect_type": "Basic",
+        "detail": "When your mech Boosts, if it moves in a straight line, may make a Ram attack as a free action against an adjacent target at the end of its movement."
+    },
+    "description": "You know what makes you faster? More boosters. This heavy system of extra fuel, boosters, and engine-hookups allows a Mech performing a Ram to do so much more than just slam into an enemy. It's really more of a shoulder tackle at this point, both mechs being rocketed in whatever direction Orlando choses.",
+    "data_type": "system",
+    "aptitude": {}
+}

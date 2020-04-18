@@ -1,0 +1,21 @@
+{
+  "id": "ms_magneton_crusher",
+  "name": "MAGNETON CRUSHER",
+  "type": "System",
+  "sp": 2,
+  "tags": [
+  {
+      "id": "tg_unique"
+    }
+  ],
+  "source": "G&S",
+  "license": "JOHN HENRY",
+  "license_level": 2,
+  "effect": {
+    "effect_type": "Basic",
+    "detail": "You may make a Ram action with a range of 5 squares. If successful, you do not move, but the targeted enemy still suffers the effects of the ram."
+  },
+  "description": "A modification of the Magnet Harness (a really simple but potentially explosive modification) allows for a localized “big crush” effect, sending mech scaled enemies to their knees as their mechs suddenly struggle with a sudden crushing weight on important systems.",
+  "data_type": "system",
+  "aptitude": {}
+}

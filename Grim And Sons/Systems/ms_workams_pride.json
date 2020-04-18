@@ -1,0 +1,26 @@
+{
+  "id": "ms_workmans_pride",
+  "name": "WORKMAN'S PRIDE",
+  "type": "System",
+  "sp": 3,
+  "tags": [
+    {
+      "id": "tg_unique"
+    },
+  {
+      "id": "tg_heat_self",
+	"val": 2
+    }
+  ],
+  "source": "G&S",
+  "license": "JOHN HENRY",
+  "license_level": 3,
+  "effect": {
+    "effect_type": "Basic",
+    "activation": "Protocol",
+    "detail": "As a protocol, select an adjacent enemy. That enemy receives a “Worksong Mark”. As long as the mark persists, the first melee attack made against the target each turn gains +1 Accuracy. "
+  },
+  "description": "Inside the mech sits a man, and the man who uses the John Henry on a Solar Rail with a dozen others knows that this kind of work can only be done by skilled humans. No Drone or AI program can ever truly replace the swing of the hammer and the heat of the reactor. This song is the final gift of Master Grimm LV, a man born a steel-driver.",
+  "data_type": "system",
+  "aptitude": {}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Redshift Camo",
+  "type": "System",
+  "sp": 2,
+  "tags": [
+    {
+      "id": "tg_limited",
+      "val": 5
+    },
+    {
+      "id": "tg_unique"
+    },
+    {
+      "id": "tg_protocol"
+    }
+  ],
+  "source": "G&S",
+  "license": "VOLK",
+  "license_level": 3,
+  "effect": "At the start of your turn, you may activate this module, it lasts until the start of your next turn (you may burn additional charges to keep the system active). While this system is active you are Invisible. If you Attack OR take damage or make an overheating roll, you become visible. The first Attack you make while invisible from this module gains +2 Accuracy.",
+  "description": "Grimm & Sons’ attempt to market against an encroaching Smith-Shimano Corpo, the Redshift Camo system is so named for its uniquely red-tinged flickering as it bends light around the installed mech core. The fact that the camo system runs off large batteries hasn’t stopped pilots using it from singing its praises as an ambush system, mostly due to junk targeting code that somehow ended up inside the camo protocols. Another happy twist of fate for G&S.",
+  "data_type": "system",
+  "aptitude": {}
+}
