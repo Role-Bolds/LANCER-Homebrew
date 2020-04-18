@@ -1,0 +1,32 @@
+{
+    "id": "wm_the_belt_of_roland_suprcharger",
+    "name": "“The Belt of Roland” Supercharger",
+    "sp": 3,
+    "applied_to": [
+        "rifle",
+        "cannon",
+        "launcher",
+        "cqb",
+        "nexus",
+        "melee"
+    ],
+    "restricted_mounts": [
+        "auxilliary"
+    ],
+    "applied_string": "Any",
+    "source": "G&S",
+    "license": "ORLANDO",
+    "license_level": 3,
+    "effect": "Pick one Main or larger weapon without the Reliable, Unreliable, or Overkill tags.  That weapon gains Reliable (4) and 1 Heat (Self).",
+    "description": "A system of power cords and energy feeds designed to create more devastating blows, the Belt of Roland unfortunately shares a usual problem of G&S technology. It’s finicky about what you can hook it into, and once its hooked in, it’ll stress your mech’s reactor out... careful with it, okay?",
+    "data_type": "mod",
+    "aptitude": {},
+    "tags": [
+        {
+            "id": "tg_unique"
+        },
+        {
+            "id": "tg_mod"
+        }
+    ]
+}

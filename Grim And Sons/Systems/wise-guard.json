@@ -1,0 +1,17 @@
+{
+    "name": "Wise//Gourd",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "G&S",
+    "license": "ANANSI",
+    "license_level": 2,
+    "effect": "Choose a weapon equipped on your mech and create a blast 2 area entirely within the weapon's range and your line of sight.  All enemy units that enter this zone are considered to be engaged by you, losing any additional movement they had left.  You may make Overwatch attacks against enemy units that attempt to leave this zone, but may not make Overwatch attacks otherwise. Your mech is Immobilized while this system is active.",
+    "description": "One day, Br’er Spider remembered a story about how he put all of the wisdom in the world into a gourd and how in his revelry at being so clever (and so drunk off wisdom) that he spilled the gourd. But, Br’er spider remembers where he spilled the Wisdom. He knows how to look for places that need his eyes on them. He can teach you too.",
+    "data_type": "system",
+    "aptitude": {}
+}

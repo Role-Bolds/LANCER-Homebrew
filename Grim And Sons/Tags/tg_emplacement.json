@@ -1,0 +1,5 @@
+{
+	"id": "tg_emplacement",
+	"name": "EMPLACEMENT",
+	"description": "This weapon can only be fired when Set Up. You may set this weapon as a Size 1 object up in your space, an empty adjacent space, or an adjacent space occupied by an ally as a quick action and it may only fire by any character sharing a space with it. The weapon can then be packed up with another quick action while adjacent to it."
+}

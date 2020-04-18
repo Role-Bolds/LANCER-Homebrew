@@ -57,6 +57,42 @@ function jsonSort(type){
                 dbug(DATA);
             } catch (err) {console.error(err);}
         };
+    } else if(type === 'tags'){
+        const dir = `${workingDir}/Tags/`;
+        fs.readdirSync(dir).forEach(file => {files.push(file);});
+        dbug(`Initalizing Type: ${type}`)
+        for (i = 0; i < files.length; i++) {
+            console.log(`ITEM: ${dir}${files[i]}`);
+            try {
+                DATA.push(JSON.parse(fs.readFileSync(`${dir}${files[i]}`)));
+                dbug(`Outputting ${dir}${files[i]}`)
+                dbug(DATA);
+            } catch (err) {console.error(err);}
+        };
+    } else if(type === 'mods'){
+        const dir = `${workingDir}/Mods/`;
+        fs.readdirSync(dir).forEach(file => {files.push(file);});
+        dbug(`Initalizing Type: ${type}`)
+        for (i = 0; i < files.length; i++) {
+            console.log(`ITEM: ${dir}${files[i]}`);
+            try {
+                DATA.push(JSON.parse(fs.readFileSync(`${dir}${files[i]}`)));
+                dbug(`Outputting ${dir}${files[i]}`)
+                dbug(DATA);
+            } catch (err) {console.error(err);}
+        };
+    } else if(type === 'systems'){
+        const dir = `${workingDir}/Systems/`;
+        fs.readdirSync(dir).forEach(file => {files.push(file);});
+        dbug(`Initalizing Type: ${type}`)
+        for (i = 0; i < files.length; i++) {
+            console.log(`ITEM: ${dir}${files[i]}`);
+            try {
+                DATA.push(JSON.parse(fs.readFileSync(`${dir}${files[i]}`)));
+                dbug(`Outputting ${dir}${files[i]}`)
+                dbug(DATA);
+            } catch (err) {console.error(err);}
+        };
     } else {console.error(`Type: ${type} not valid`);}
     makeJSONFile(`${compileDir}/${type}`, DATA);
 }
@@ -65,6 +101,9 @@ function compile(){
     makeDir(compileDir);
     jsonSort('frames');
     jsonSort('weapons');
+    jsonSort('tags');
+    jsonSort('mods');
+    jsonSort('systems');
     makeJSONFile(`${compileDir}/lcp_manifest`, config);
     makeJSONFile(`${compileDir}/manufacturers`, manufacturers);
 }

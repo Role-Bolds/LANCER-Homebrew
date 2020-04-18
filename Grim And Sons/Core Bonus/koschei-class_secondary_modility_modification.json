@@ -1,0 +1,6 @@
+{
+    "name": "Koschei-Class Secondary Mobility Modification",
+    "source": "G&S",
+    "description": "A system of treads, sub-legs, and multipurpose arms that make it so even if your mechs’ legs are in some way ruined… you can still get revenge on the idiot who fucked up your mech!",
+    "effect": "Your mech is Immune to the Slowed condition from sources other than yourself, may climb at full speed and attackers do not gain accuracy for attacking it while it is prone."
+}

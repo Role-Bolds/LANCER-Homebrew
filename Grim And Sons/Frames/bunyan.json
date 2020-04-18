@@ -1,0 +1,68 @@
+{
+  "source": "G&S",
+  "name": "BUNYAN",
+  "mechtype": [
+    "Defender"
+  ],
+  "image_url": "",
+  "y_pos": "",
+  "description": "This big lug used to be an industrimech, meant for hauling materials, setting up arcologies, that kinda stuff. The drone too, it was just for keeping workers safe incase the building came down. Sure you can have a C/C do the job, subalterns, but that’s not right. Men need work to stay sane, and you know? Sometimes, bigger is better. We don’t mean to be crass! It’s just a fact sometimes. When you need a point held, when you need people kept safe, when the chips are down and everyone needs a second to catch their breath... that’s where Bunyan shines. The biggest mech on offer from we here at G&S. That’s Bunyan. The last bastion, the one who wades through the thick of it, axe in hand and BABE Drone at his side. C’mon pilot, step up to the plate and see if you can’t make a tale to be astounded by!",
+  "mounts": [
+    "Heavy"
+  ],
+  "stats": {
+    "size": 3,
+    "armor": 1,
+    "hp": 12,
+    "evasion": 6,
+    "edef": 6,
+    "heatcap": 5,
+    "repcap": 6,
+    "sensor_range": 5,
+    "tech_attack": 0,
+    "save": 10,
+    "speed": 3,
+    "sp": 6
+  },
+  "traits": [
+    {
+      "name": "Guardian",
+      "description": "The Bunyan can be used for hard cover by adjacent allied characters"
+    },
+    {
+      "name": "Heavy Frame",
+      "description": "The Bunyan cannot be knocked back, pushed, pulled, or be knocked prone by actors smaller than itself"
+    },
+    {
+      "name": "Slow",
+      "description": "The Bunyan gets +1 Difficulty on agility checks and saves."
+    }
+  ],
+  "core_system": {
+    "name": "Ballistic/Advanced Barrier Enhancement Drone",
+    "description": "The Ballistic/Advanced Barrier Enhancement (BABE) Drone is some of the fanciest tech G&S has ever managed to get off the ground without it going up in flames on them. The frankly massive and clunky drone manages to output powerful shield to defend its core Frame from incoming kinetic/ballistic fire, but most pilots see fit to use it to help their friends. G&S knows its customer base well, and the full production line of Bunyan includes a built-in BABE drone, capable of being supercharged with a dump from the coldcore. The tell-tale blue is your friend, pilot, trust in BABE and he’ll bring your lance home.",
+    "active_name": "Big Blue Friend",
+    "active_effect": "You place your BABE Drone in an unoccupied space within your sensor range, it generates a Burst 3 shield that is bubble-shaped. Any attempts to enter or exit the shield through movement of any sort must roll 1d6, on a 4+ the movement fails and the moving character takes 3 Kinetic Damage that cannot be reduced. Any attack (tech, melee, ranged) that crosses the barrier must roll a d6, on a 4+ the attack fails. You may reposition the drone with a Quick Action on your turn.",
+    "tags": [
+      {
+        "id": "tg_quick_action"
+      }
+    ],
+    "passive_name": "",
+    "passive_effect": "As a reaction to an incoming attack, 1/round you may give yourself or an ally within your sensor range resistance to kinetic damage until the start of their turn",
+    "integrated": {
+        "id": ""
+      }
+  },
+  "data_type": "frame",
+  "aptitude": {},
+  "counters": [
+      {
+        "id": "",
+        "name": "",
+        "default_value": 0,
+        "min": 0,
+        "max": 12
+      }
+    ]
+}
