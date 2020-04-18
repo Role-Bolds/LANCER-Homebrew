@@ -1,38 +1,37 @@
-[
-    {
-        "id": "mw_joyeuse_beam_saber",
-        "name": "“Joyeuse” Beam Saber",
-        "mount": "Main",
-        "type": "Melee",
-        "damage": [
-            {
-                "type": "variable",
-                "val": "1d6+1"
-            }
-        ],
-        "range": [
-            {
-                "type": "Threat",
-                "val": 1
-            }
-        ],
-        "tags": [
-            {
-                "id": "tg_ap"
-            },
-            {
-                "id": "tg_inaccurate"
-            }
-        ],
-        "source": "G&S",
-        "license": "ORLANDO",
-        "license_level": 1,
-        "effect": {
-            "effect_type": "Offensive",
-            "detail": "At the start of your turn, you may choose whether this weapon deals Energy or Explosive damage."
+
+{
+    "id": "mw_joyeuse_beam_saber",
+    "name": "“Joyeuse” Beam Saber",
+    "mount": "Main",
+    "type": "Melee",
+    "damage": [
+        {
+            "type": "variable",
+            "val": "1d6+1"
+        }
+    ],
+    "range": [
+        {
+            "type": "Threat",
+            "val": 1
+        }
+    ],
+    "tags": [
+        {
+            "id": "tg_ap"
         },
-        "description": "A badly contained blade of plasma that so many pilots refused to update that G&S made the poor containment a feature. A simple flick of a switch in the cockpit creates a timer on the blade, swing it just right and they’ll eat a faceful of sun-hot plasma. Or don’t flick the switch and keep a nice sharp sword of sunlight. Comes in over 300 shades!",
-        "data_type": "weapon",
-        "aptitude": {}
-    }
-]
+        {
+            "id": "tg_inaccurate"
+        }
+    ],
+    "source": "G&S",
+    "license": "ORLANDO",
+    "license_level": 1,
+    "effect": {
+        "effect_type": "Offensive",
+        "detail": "At the start of your turn, you may choose whether this weapon deals Energy or Explosive damage."
+    },
+    "description": "A badly contained blade of plasma that so many pilots refused to update that G&S made the poor containment a feature. A simple flick of a switch in the cockpit creates a timer on the blade, swing it just right and they’ll eat a faceful of sun-hot plasma. Or don’t flick the switch and keep a nice sharp sword of sunlight. Comes in over 300 shades!",
+    "data_type": "weapon",
+    "aptitude": {}
+}

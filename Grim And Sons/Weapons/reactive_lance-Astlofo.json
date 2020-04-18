@@ -1,37 +1,36 @@
-[
-    {
-        "id": "mw_astolfo_reactive_lance",
-        "name": "“Astolfo” Reactive Lance",
-        "mount": "Superheavy",
-        "type": "Melee",
-        "damage": [
-            {
-                "type": "kinetic",
-                "val": "2d6+3"
-            }
-        ],
-        "range": [
-            {
-                "type": "Threat",
-                "val": 1
-            }
-        ],
-        "tags": [
-            {
-                "id": "tg_round",
-                "val": 1
-            }
-        ],
-        "source": "G&S",
-        "license": "ORLANDO",
-        "license_level": 3,
-        "effect": {
-            "effect_type": "Offensive",
-            "detail": "If you move 6 or more spaces in a straight line before attacking with this weapon it gains the AP tag and deals +1d6 bonus explosive damage.",
-            "attack": "1/round, after successfully hitting an enemy with a Ram attack you may spend a quick action to make a special attack with this weapon against the same target.  This attack automatically hits but deals half damage, but cannot be used if the target is not Adjacent to you when the Ram started (? don’t use magnet harness with this, i will find better words later)"
-        },
-        "description": "Ah, the Lance, most ancient of mounted fighting weapons. Why not stuff the bastard with explosives and see just how fast you can ram it through any fool who stands against you? After all, Pre-Fall stories tell of a knight with a magical lance that could unhorse any it touched. We at G&S think our reactive lance is up to the task.",
-        "data_type": "weapon",
-        "aptitude": {}
-    }
-]
+
+{
+    "id": "mw_astolfo_reactive_lance",
+    "name": "“Astolfo” Reactive Lance",
+    "mount": "Superheavy",
+    "type": "Melee",
+    "damage": [
+        {
+            "type": "kinetic",
+            "val": "2d6+3"
+        }
+    ],
+    "range": [
+        {
+            "type": "Threat",
+            "val": 1
+        }
+    ],
+    "tags": [
+        {
+            "id": "tg_round",
+            "val": 1
+        }
+    ],
+    "source": "G&S",
+    "license": "ORLANDO",
+    "license_level": 3,
+    "effect": {
+        "effect_type": "Offensive",
+        "detail": "If you move 6 or more spaces in a straight line before attacking with this weapon it gains the AP tag and deals +1d6 bonus explosive damage.",
+        "attack": "1/round, after successfully hitting an enemy with a Ram attack you may spend a quick action to make a special attack with this weapon against the same target.  This attack automatically hits but deals half damage, but cannot be used if the target is not Adjacent to you when the Ram started (? don’t use magnet harness with this, i will find better words later)"
+    },
+    "description": "Ah, the Lance, most ancient of mounted fighting weapons. Why not stuff the bastard with explosives and see just how fast you can ram it through any fool who stands against you? After all, Pre-Fall stories tell of a knight with a magical lance that could unhorse any it touched. We at G&S think our reactive lance is up to the task.",
+    "data_type": "weapon",
+    "aptitude": {}
+}
