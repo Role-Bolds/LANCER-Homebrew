@@ -1,0 +1,18 @@
+{
+    "name": "Gum-Doll Mines",
+    "type": "Deployable",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 3
+      }
+    ],
+    "source": "G&S",
+    "license": "ANANSI",
+    "license_level": 1,
+    "effect": "Any enemy actor entering a Burst 3 or starting their turn within the same distance of a Gum-Doll Mine must make a Systems check, on failure they become convinced that the Mine is an Ally for 3 rounds; this effect does not function on Biological targets. An Enemy Actor entering within Threat 1 of a Mine must make an Agility save or become Immobilized until the start of their next turn.",
+    "description": "The Gum-Doll trap is simple really, a mine packed with less-than-damaging explosives and rapidly hardening polymer that stops enemies in their tracks. The most advanced technology in it is the most interesting, however, using an experimental “Memetic Camouflage” that feeds false data towards any enemy computer system, temporarily disguising the mines as Friendlies.",
+    "data_type": "system",
+    "aptitude": {}
+}

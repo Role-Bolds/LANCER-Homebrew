@@ -1,5 +1,4 @@
-[ 
-  {
+{
   "id": "mf_john_henry",
   "source": "G&S",
   "name": "JOHN HENRY",
@@ -65,5 +64,4 @@
   "data_type": "frame",
   "aptitude": {},
   "image_url": "https://i.imgur.com/Oe7Noay.png"
-  }
-]
+}

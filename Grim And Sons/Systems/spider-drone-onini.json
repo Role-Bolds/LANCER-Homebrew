@@ -1,0 +1,18 @@
+{
+    "name": "Sniper-Drone 'Onini'",
+    "type": "Drone",
+    "sp": 3,
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
+      }
+    ],
+    "source": "G&S",
+    "license": "ANANSI",
+    "license_level": 3,
+    "effect": "As a quick action, you can set this drone down in any adjacent space. As your turn ends, the drone primes. At the end of that turn, and every subsequent turn, this drone fires at the nearest (to it) enemy actor suffering from Lock-On within 15 spaces as a free action. It attacks using your GRIT for 4 Kinetic damage.",
+    "description": "A serpentine drone that, when deployed, coils itself up into place and waits. What does it wait for? It waits for someone to light up on your local tacnet. Then it lights them up with a medium-powered rifle built into it. Simple, right? Br’er Spider tied Onini to a stick and made him promise to help him... So Onini will help you too!",
+    "data_type": "system",
+    "aptitude": {}
+}

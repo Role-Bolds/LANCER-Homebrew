@@ -1,0 +1,69 @@
+{
+  "source": "G&S",
+  "name": "VOLK",
+  "mechtype": [
+    "Striker"
+  ],
+  "image_url": "",
+  "y_pos": "",
+  "description": "The Volk is perhaps most well known for its use in the frontier, where G&S market it as the ultimate in cheap and effective colony defense. And given the Volk’s tendency to be used to fight everything from pirate lances to ornery Xenofauna, many have claimed that is nothing more than a bootleg Blackbeard for bumpkins who don’t know better. Fans of the core, however, are quite likely to punch the speaker of such words right in the fucking mouth. After all, the Volk may suffer from ammunition problems; but it's rough and tumble enough to tear the head off mechs twice its size.",
+  "mounts": [
+    "Heavy",
+    "Main"
+  ],
+  "stats": {
+    "size": 1,
+    "armor": 1,
+    "hp": 12,
+    "evasion": 8,
+    "edef": 6,
+    "heatcap": 4,
+    "repcap": 4,
+    "sensor_range": 5,
+    "tech_attack": -2,
+    "save": 10,
+    "speed": 6,
+    "sp": 5
+  },
+  "traits": [
+    {
+      "name": "Howling Jets",
+      "description": "The Volk may fly when it moves or boosts, but must land at the end of its movement. However, it may freely cling to the sides of objects large enough to support it, digging saws into buildings and trees."
+    },
+    {
+      "name": "Dustup",
+      "description": "When the Volk destroys an object (cover, deployable, building, or piece of terrain or scenery it gains Soft Cover until the start of its next turn."
+    },
+    {
+      "name": "Exposed Reactor",
+      "description": "The Volk takes +1 Difficulty on Engineering Checks and Saves."
+    }
+  ],
+  "core_system": {
+    "name": "Fenrir Shredders",
+    "description": "Fluff text for the core system",
+    "active_name": "Core System Active Name",
+    "active_effect": "Mechanics for the active effect",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      }
+    ],
+    "passive_name": "",
+    "passive_effect": "",
+    "integrated": {
+        "id": "g&s_volk_integrated"
+      }
+  },
+  "data_type": "frame",
+  "aptitude": {},
+  "counters": [
+      {
+        "id": "",
+        "name": "",
+        "default_value": 0,
+        "min": 0,
+        "max": 12
+      }
+    ]
+}

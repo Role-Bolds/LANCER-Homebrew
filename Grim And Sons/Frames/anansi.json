@@ -1,0 +1,64 @@
+{
+  "source": "G&S",
+  "name": "ANANSI",
+  "mechtype": [
+    "Artillery",
+    "Support"
+  ],
+  "image_url": "https://i.imgur.com/smNPh4R.png",
+  "y_pos": "",
+  "description": "The Anansi is the twin of the Orlando, the newest mechs in the lineup and ACTUALLY built for military use. Where the Orlando is the Line-Breaker who crashes through the lines, Anansi is a sniper who provides overwatch support for the entire battlefield. Installed within Anansi is the... semi-advanced “Br’er Spider” Comp/Con created by Clan Vediovis. It does what it needs to, helping the pilot within sit at the center of a perfect defensive web. Reports of self-enlightening “Br’er Spider” Units are highly exaggerated, perhaps mistaking the advanced programming for true thought. Though the unit does come pre-installed with a collection of fables meant to help educate less experienced pilots and help gently bring them up to the Combat Standards of Clan Rockatansky, the family most responsible for G&S’s more recent “Real Warrior” design school and marketing philosophy.",
+  "mounts": [
+    "Heavy",
+    "Main/Aux"
+  ],
+  "stats": {
+    "size": 1,
+    "armor": 0,
+    "hp": 8,
+    "evasion": 8,
+    "edef": 10,
+    "heatcap": 5,
+    "repcap": 3,
+    "sensor_range": 20,
+    "tech_attack": 0,
+    "save": 10,
+    "speed": 5,
+    "sp": 6
+  },
+  "traits": [
+    {
+      "name": "Adventurer",
+      "description": "The Anansi may climb and jump at full speed."
+    },
+    {
+      "name": "Nyambe's Gaze",
+      "description": "At the start of your turn the Anansi may Search or Scan as a free action."
+    },
+    {
+      "name": "Didja Know?",
+      "description": "<i>Br'er Spider is here to help you out, kid.</i>"
+    },
+    {
+      "name": "Rapid Targeting Processors",
+      "description": "When Anansi Scans a target, until the start of your next turn you gain +1 Accuracy on ranged attacks against them."
+    }
+  ],
+  "core_system": {
+    "name": "“Br’er Spider” Computational Systems",
+    "description": "“Br’er Spider” Computational Systems",
+    "active_name": "Anansesem",
+    "active_effect": "Until the end of the Scene, any targets suffering from a Lock-On condition you inflicted is Shredded for the same duration. If you or an allied character consume Lock-On inflicted by you as part of a ranged or melee attack, they deal +1d6 bonus damage.",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      }
+    ],
+    "passive_name": "",
+    "passive_effect": "The Anansi mounts a Companion/Combatant Unit, a piece of gear that cost 0 SP and has the AI tag. Br’er Spider has a kind and laid back personality, even in the heat of combat. It is supposedly incapable of true thought, but is spookily perceptive to the needs of its pilot. Since it has the AI tag, you may hand controls over to it as a protocol and give it a basic set of orders to follow (Defend this area, attack this enemy, protect me, etc), the Anansi will follow this course of action as best it can or else simply act to defend itself if it has no other orders. Br’er Spider cannot be Unshackled and goes dormant if a True AI is installed (though its active may still be used).",
+    "integrated":{}
+  },
+  "data_type": "frame",
+  "aptitude": {},
+  "counters": []
+}

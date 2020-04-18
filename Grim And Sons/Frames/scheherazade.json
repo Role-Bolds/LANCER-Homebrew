@@ -1,0 +1,70 @@
+{
+  "source": "G&S",
+  "name": "SCHEHERAZADE",
+  "mechtype": [
+    "Controller"
+  ],
+  "image_url": "",
+  "y_pos": "",
+  "description": "Here’s a secret. Grimm & Sons don’t know where the original designs for the mech known as the Scheherazade come from. The original printer specs were found in an ancestral Data-Vault in a hidden room in the Grimm Clan’s familial stronghold. It is the most technologically advanced license, free of the troubles that face other G&S cores. The family does as craftsmen do, they build more and more Scheherazades, tinkering and toying with its pieces, trying to use the seemingly arcane technologies within to further the family fortune. Do they have any idea what they’re toying with? Not really. But does that matter? It is a gift from their Ancestors. [Do you yet understand Mirror-Logic?]",
+  "mounts": [
+    "Flex"
+  ],
+  "stats": {
+    "size": 0.5,
+    "armor": 0,
+    "hp": 6,
+    "evasion": 8,
+    "edef": 10,
+    "heatcap": 5,
+    "repcap": 3,
+    "sensor_range": 10,
+    "tech_attack": 1,
+    "save": 12,
+    "speed": 5,
+    "sp": 8
+  },
+  "traits": [
+    {
+      "name": "Silver Mirage",
+      "description": " If the Scheherazade is hit by an attack while not Invisible and not suffering Lock-On, it can, 1/round, roll 1d6. On a 5+, the attack automatically misses and is negated."
+    },
+    {
+      "name": "Mirror Logic",
+      "description": "<i>This has all happened before. It will all happen again. You are not yourself. You are a reflection. Mirrors reflect mirrors. We are all within the Dream.</i>"
+    },
+    {
+      "name": "Hangar Queen",
+      "description": "Scheherazade must spend 2 repairs to repair a destroyed system during rests instead of 1."
+    },
+    {
+      "name": "A Favorable Dream",
+      "description": "At the start of the scene, before any turns are taken, the Scheherazade can place up to three mines within Range 50. These mines cannot be placed adjacent to [or within their own Blast of] any character. At the end of the scene, remove any un-detonated mines deployed by the Scheherazade. For each of those mines, the Scheherazade regains 1 Limited charge for the system that deployed it."
+    }
+  ],
+  "core_system": {
+    "name": "Core System Name",
+    "description": "We are within the dream of Mirror-Logic. Choose wisely which Mirror you look upon. For you are a Mirror as well. Where you place your gaze decides your actions.There is no self. There is only reflection. Do you understand? [BASILISK DETECTED][AVERT YOUR GAZE]Hush now.",
+    "active_name": "Endless Dream of the Mirror",
+    "active_effect": "Mark a Burst 5 that lasts 3 Round. Any enemy character that starts their turn in this area or enters it for the first time on their turn must make a Systems save or become Jammed until the start of their next turn.",
+    "tags": [
+      {
+        "id": "tg_full_tech"
+      }
+    ],
+    "passive_name": "",
+    "passive_effect": "",
+    "integrated":{}
+  },
+  "data_type": "frame",
+  "aptitude": {},
+  "counters": [
+      {
+        "id": "",
+        "name": "",
+        "default_value": 0,
+        "min": 0,
+        "max": 12
+      }
+    ]
+}

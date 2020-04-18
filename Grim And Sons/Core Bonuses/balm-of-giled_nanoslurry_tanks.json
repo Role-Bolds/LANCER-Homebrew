@@ -1,0 +1,6 @@
+{
+    "name": "“Balm of Gilead” Nanoslurry Tanks",
+    "source": "G&S",
+    "description": "Upgrading the spare parts and universal repair systems inherent to mechs and enhancing them with the addition of our proprietary nanoslurry will make sure you don’t die! And really, isn’t that just the best?",
+    "effect": "When you spend Repair to heal, or are healed by another player spending repair to do so; you gain 5 Overshield."
+}

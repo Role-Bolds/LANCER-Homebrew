@@ -1,0 +1,36 @@
+
+ {
+  "source": "G&S",
+  "license": "JOHN HENRY",
+  "license_level": 1,
+  "effect": "",
+  "description": "",
+  "data_type": "weapon",
+  "aptitude": {},
+  "id": "GS_RAIL-DRIVER",
+  "name": "RAIL-DRIVER",
+  "mount": "Main",
+  "type": "Melee",
+  "range": [
+    {
+      "type": "threat",
+      "val": 1
+    }
+  ],
+  "damage": [
+    {
+      "type": "kinetic",
+      "val": "2d6"
+    }
+  ],
+  "tags": [
+    {
+      "id": "tg_knockback",
+      "val": 2
+    },
+          {
+      "id": "tg_heat_self",
+      "val": 1
+    }
+  ]
+}
