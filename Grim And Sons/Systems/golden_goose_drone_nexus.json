@@ -1,0 +1,18 @@
+{
+    "name": "Golden Goose Drone Nexus",
+    "type": "Drone",
+    "sp": 3,
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 2
+      }
+    ],
+    "source": "G&S",
+    "license": "JACK",
+    "license_level": 3,
+    "effect": "As a quick action you can set this drone down in any adjacent space. After your turn ends, the drone primes and activates. All allied mechs within Burst 3 of the drone are healed 2 hit points per round. Any ally within the burst may, as a reaction to receiving a critical hit or losing a point of structure may allow the drone to be destroyed instead of taking the damage themself, this destroys the drone. Alternatively any ally may, as a Quick action, supercharge the drone and giving all allied mechs within Burst 3 1d6+3 hit points, destroying the drone. The drone can be shot and destroyed if a single attack beats its Evasion 12 and does benefit from cover.",
+    "description": "Is the “Golden Goose” drone based on nigh ancient resupply drones? Maybe. But it's one of the newest pieces of tech put into the Jack. The drone actually uses a nanoslurry  to create a cloud of nanobots that slowly (but effectively) heal both the Jack and anything sharing its Tacnet. But that’s not all! The Golden Goose can ‘burn’ itself, injecting its full payload of nanoslurry into a mech for major repairs! But wait! Dear customer there’s one more little function baked into the thing: “Savior Protocols”! A simple modification to the drone’s damage calculators allow it to tell when an attack may do unacceptable harm to its charges and the drone is happy enough to sacrifice itself for the good of the unit.",
+    "data_type": "system",
+    "aptitude": {}
+}

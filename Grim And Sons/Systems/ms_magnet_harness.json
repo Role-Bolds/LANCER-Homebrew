@@ -1,0 +1,21 @@
+{
+  "id": "ms_magnet_harness",
+  "name": "MAGNET HARNESS",
+  "type": "System",
+  "sp": 1,
+  "tags": [
+  {
+      "id": "tg_unique"
+    }
+  ],
+  "source": "G&S",
+  "license": "JOHN HENRY",
+  "license_level": 1,
+  "effect": {
+    "effect_type": "Basic",
+    "detail": "A mech equipped with this system treats all vertical and overhanging surfaces as flat ground for the purposes of movement and no longer count as climbing these surfaces. However you may only move ½ speed vertically when under the effects of gravity (moving full speed vertically in 0G). In addition the mech gives +1 Difficulty to being knocked Prone by enemy attacks while this system is installed."
+  },
+  "description": "Designed using both conventional magnetics and the Union approved Hypermagnetic Systems, this large, bulky system of rotating metal bands help create a small magnetic field that allows an equipped mech to move through the dangerous terrain of 0G. And move up walls when down the gravity well, albeit very much… worse.",
+  "data_type": "system",
+  "aptitude": {}
+}

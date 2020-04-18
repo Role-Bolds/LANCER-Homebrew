@@ -1,0 +1,28 @@
+{
+    "id": "ms_ascalon_engines",
+    "name": "Ascalon Engines",
+    "type": "System",
+    "sp": "2",
+    "tags": [
+        {
+            "id": "tg_heat_self"
+        },
+        {
+            "id": "tg_unique"
+        },
+        {
+            "id": "tg_free_action"
+        }
+    ],
+    "source": "G&S",
+    "license": "ORLANDO",
+    "license_level": "2",
+    "effect": {
+        "effect_type": "Basic",
+        "activation": "Free",
+        "detail": "You may activate this system as a free action whenever you move or boost. Increase your speed by up to 6 for this movement, gaining heat equal to the speed increase. During this movement, you must move in a straight line. Additionally, if this heat would cause your mech to mark Reactor Stress, you may complete your turn before rolling on the Overheating table."
+    },
+    "description": "An engine overhaul, a Minovsky reactor, and rebuilt actuators make up this system, creating a mech capable of frankly insane speed. If your engine doesn’t melt out of your mech, no one will be able to escape your reach.",
+    "data_type": "system",
+    "aptitude": {}
+}

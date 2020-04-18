@@ -1,0 +1,17 @@
+{
+    "name": "Ox-Class Musculature Reinforcement",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_full_action"
+      }
+    ],
+    "source": "G&S",
+    "license": "BUNYAN",
+    "license_level": 2,
+    "effect": "You may seize and tear a size 1 object, piece of hard cover, or part of an obstacle and hurl it as an improvised weapon using your GRIT for the attack roll at an enemy within 10 spaces and Line of Sight, targeting their Evasion. If you strike a foe with the torn-up terrain, deal 2d6 Kinetic Damage and place a size 1 piece of Hard Cover next to them. You may also just hurl hunks of terrain into empty spaces, where they act as Hard Cover to adjacent spaces",
+    "description": "“Strong as an Ox!” That’s what they say about people, but what about mechs? Well we decided that reinforcing the myomar musculature should get you enough lifting and hauling power to either build a city or tear it down, seemed easy enough to sell at least.",
+    "data_type": "system",
+    "aptitude": {}
+}

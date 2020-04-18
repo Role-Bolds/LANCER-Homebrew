@@ -1,0 +1,49 @@
+{
+    "id": "ms_sandstorm_charges",
+    "name": "Sandstorm Charges",
+    "type": "Deployable",
+    "sp": 2,
+    "tags": [
+        {
+            "id": "tg_limited",
+            "val": 3
+        }
+    ],
+    "source": "G&S",
+    "license": "SCHEHERAZADE",
+    "license_level": 2,
+    "effect": {
+        "effect_type": "Charge",
+        "charges": [
+            {
+                "name": "Sandstorm Grenade",
+                "charge_type": "Grenade",
+                "detail": "This blast lasts until the end of your next turn. All characters in the blast are consumed by a whirling sandstorm, Blocking Line of Sight in, out, or through the raging winds.",
+                "range": [
+                    {
+                        "type": "Range",
+                        "val": 5
+                    },
+                    {
+                        "type": "Blast",
+                        "val": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sandstorm Mine",
+                "charge_type": "Mine",
+                "detail": "This mine deploys and primes at the end of your turn, when primed it can be detonated with a Quick Action on your turn or automatically when an actor moves adjacent to it. The Blast creates a whirling sandstorm that acts as Dangerous Terrain (Kinetic) and Soft Cover and lasts until the mine is destroyed by any attack action hitting it (Evasion 5, HP 1). Any checks provoked by the Dangerous Terrain are instead replaced by saves against your Save Target.",
+                "range": [
+                    {
+                        "type": "Blast",
+                        "val": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "description": "The Grimm hold a story in their vaults, about Homeland, about Cradle, about the Djinn who lived in the cold red deserts of Mars. Sons of the War God who turned from War and sought a life of their own. They became tricksters and spread mighty dust-storms to keep themselves safe. A King of Mars came upon a Djinn’s heart and forced it to make sandstorms to protect his kingdom. We made you these for you, think of them as artificial Djinn Hearts. They’ll keep you safe.",
+    "data_type": "system",
+    "aptitude": {}
+}

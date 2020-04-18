@@ -1,0 +1,35 @@
+{
+    "id": "ms_displacement_mirrors",
+    "name": "Displacement Mirrors",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+        {
+            "id": "tg_unique"
+        },
+        {
+            "id": "tg_reaction"
+        },
+        {
+            "id": "tg_heat_self",
+            "val": 1
+        }
+        {
+            "id": "tg_round",
+            "val": 1
+        }
+    ],
+    "source": "G&S",
+    "license": "SCHEHERAZADE",
+    "license_level": 2,
+    "effect": {
+        "effect_type": "Reaction",
+        "name": "Displacement",
+        "frequency": "1/round",
+        "trigger": "An attack that did not consume Lock-On misses you",
+        "detail": "Slide 3 in any direction, even through objects and characters. You may not use this reaction if you are Suffering Lock-On"
+    },
+    "description": "[Look, the desert gives up its gifts to us. We shall be a ghost, a figment, a dream, a mirage. If they strike at you, they strike only a reflection. They are already within the Dream, they have done this before and shall do so again. Such is the nature of Mirror-Logic.]",
+    "data_type": "system",
+    "aptitude": {}
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Short-Life Shielder",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "G&S",
+    "license": "BUNYAN",
+    "license_level": 1,
+    "effect": "When you Bolster an ally, you may pick one of the two effects listed below in addition to the normal effects of Bolster: Shield Pop: All actors adjacent to your bolstered target are knocked back 1 space away from your target. Shield Brace: Until the start of their next turn, the Bolstered target reduces all involuntary movement by 1 to a minimum of 0",
+    "description": "We made a simple lil drone, it latches onto your friends as part of benefic code delivery that most mechs can broadcast to allies. When it latches on, it deploys a nice lil barrier! Either keeps your buddy where he is, or you can burn out the drone and shield for a nice big pop! It's sort of a sonic boom? Anyway, atmospheres don’t like it when you detonate warp-fields in them and it keeps assholes off your buddy’s back, that’s what’s important here.",
+    "data_type": "system",
+    "aptitude": {}
+}
