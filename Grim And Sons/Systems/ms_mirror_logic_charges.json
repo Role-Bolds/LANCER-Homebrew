@@ -1,0 +1,49 @@
+{
+    "id": "ms_mirror_logic_charges",
+    "name": "Mirror Logic Charges",
+    "type": "Deployable",
+    "sp": 3,
+    "tags": [
+        {
+            "id": "tg_limited",
+            "val": 2
+        }
+    ],
+    "source": "G&S",
+    "license": "SCHEHERAZADE",
+    "license_level": 3,
+    "effect": {
+        "effect_type": "Charge",
+        "charges": [
+            {
+                "name": "Twist Causality",
+                "charge_type": "Grenade",
+                "detail": "Create an area of warped causality until the end of your next turn. All characters within this area reverse the effects of Accuracy and Difficulty (Accuracy penalizes rolls it applies to, while Difficulty improves those rolls). Accuracy and Difficulty still cancel each other out as normal.",
+                "range": [
+                    {
+                        "type": "Range",
+                        "val": 5
+                    },
+                    {
+                        "type": "Blast",
+                        "val": 1
+                    }
+                ]
+            },
+            {
+                "name": "Twist Logics",
+                "charge_type": "Mine",
+                "detail": "This mine primes at the end of your turn. It can be detonated with a Quick Action, and detonates automatically when any character moves adjacent to it. Create an area of warped time within this mine's Blast that lasts until the end of your next turn. Any character starting their turn within this area must succeed at a Systems save or attempt the same actions they took on their previous turn. They make the same choices for those actions (such as distance moved, or targets attacked). If, for any reason, an affected character cannot make the same action or the same choices, such as if a target is out of range or a system with Recharge has not yet recharged, they take all repeat actions they are capable of taking, then end their turn.",
+                "range": [
+                    {
+                        "type": "Blast",
+                        "val": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "description": "[The Foundation of Mirror-Logic is showing them where they stand. The Advances of Mirror Logic are to show them how they must act. They were never to fire, they were never to walk, they were never to be. And yet in this dream they are.]<br>[Correct it.]",
+    "data_type": "system",
+    "aptitude": {}
+}

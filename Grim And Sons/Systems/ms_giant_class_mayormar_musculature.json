@@ -1,0 +1,26 @@
+{
+  "id": "ms_giant_class_myomar_musculature",
+  "name": "GIANT CLASS MYOMAR MUSCULATURE",
+  "type": "System",
+  "sp": 2,
+  "tags": [
+  {
+      "id": "tg_unique"
+    },
+  {
+      "id": "tg_heat_self",
+	"val": 2
+    }
+  ],
+  "source": "G&S",
+  "license": "JOHN HENRY",
+  "license_level": 2,
+  "effect": {
+    "effect_type": "Basic",
+  "activation": "Quick",
+    "detail": "A mech with this modification may hurl terrain smaller than itself or destroyed enemies of any size in adjacent squares as an improvised weapon by selecting a target within 10 Squares to take an Agility Save; taking damage by the Size of the hurled weapon or half as much on a successful save. This ability cannot be used on enemies with the “Strength in numbers” rule. If attempting to throw an enemy or object of Size 3 or above, take additional heat for each size category above 2. Size ½: 1d3 Kinetic. Size 1: 1d6 Kinetic. Size 2: 2d6 Kinetic. Size 3: 3d6 Kinetic +1 heat (Self). Size 4: 4d6 Kinetic +2 heat (Self)."
+  },
+  "description": "Myomar Musculature is standard in a hell of a lot of mechs, but the “Giant” class of Musculature are famous for their ability to wrench ton after ton of material straight out of the ground and set it down with the gentleness of a kitten. Or hurl the whole lot at some poor fool. Outside of the gravity well, he can probably catch and stop it if he’s equipped with “Giant” as well but otherwise...",
+  "data_type": "system",
+  "aptitude": {}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "“Golden Harp” Memetic Chaff",
+  "type": "System",
+  "sp": 3,
+  "tags": [
+    {
+      "id": "tg_protocol"
+    },
+    {
+      "id": "tg_heat_self",
+      "val": 2
+    },
+    {
+      "id": "tg_unique"
+    }
+  ],
+  "source": "G&S",
+  "license": "JACK",
+  "license_level": 3,
+  "effect": "When this system is activated, create a Burst 2 centered on your mech; this burst moves with your mech as an “Aura” when you move. This cloud provides Hard cover to yourself and all allied mechs within the burst. Enemy mechs within the Burst do not benefit from this cover. This “Aura” lasts until the end of your next turn.",
+  "description": "Fun fact, this piece of tech is actually reverse-engineered experiment from the much newer Scheherazade’s data-vaults and worked into the aging Jack license in an attempt to enliven the brand. So far, it’s worked! Pilots report enhanced survivability and utility, and only a few half-melted Jacks. So really, all the kinks are worked out of it and the “Golden Harp” is going into full production in the upcoming quarter.",
+  "data_type": "system",
+  "aptitude": {}
+}

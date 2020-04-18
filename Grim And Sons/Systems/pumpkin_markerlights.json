@@ -1,0 +1,21 @@
+{
+  "name": "Pumpkin Markerlights",
+  "type": "System",
+  "sp": 2,
+  "tags": [
+    {
+      "id": "tg_protocol"
+    },
+    {
+      "id": "tg_heat_self",
+      "val": 1
+    }
+  ],
+  "source": "G&S",
+  "license": "JACK",
+  "license_level": 2,
+  "effect": "Select a target within line-of-sight. This target cannot benefit from Soft cover (such as smoke) or Invisibility. This effect lasts until the start of your next turn, after which the chaff loses stick and falls off.",
+  "description": "A system of integrated launchers fire a sort of ‘sticky’ chaff that both clings to targets and, through simple chemical reactions with the heat produced by mechs, releases a glow that makes shooting them all the easier. It's actually named for the bright orange color of the sticky chaff, something many pilots have called “festive”.",
+  "data_type": "system",
+  "aptitude": {}
+}
