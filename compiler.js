@@ -93,7 +93,7 @@ function jsonSort(type){
                 dbug(DATA);
             } catch (err) {console.error(err);}
         };
-    } else if(type === 'core bonus'){
+    } else if(type === 'core_bonus'){
         const dir = `${workingDir}/Core Bonuses/`;
         fs.readdirSync(dir).forEach(file => {files.push(file);});
         dbug(`Initalizing Type: ${type}`)
@@ -116,6 +116,7 @@ function compile(){
     jsonSort('tags');
     jsonSort('mods');
     jsonSort('systems');
+    jsonSort('core_bonus');
     makeJSONFile(`${compileDir}/lcp_manifest`, config);
     makeJSONFile(`${compileDir}/manufacturers`, manufacturers);
 }
