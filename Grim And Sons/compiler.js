@@ -6,14 +6,17 @@ const compileTime = new Date();
 
 
 function makeDir(folderName){
-    new File(folderName).mkdirs();
+        fs.mkdir(folderName, { recursive: true }, function(err) { 
+            if (err){console.error(err)}
+            else{console.log(`Directory created: ${folderName}`)}
+        });   
 }
 
 function jsonSort(type){    
     if(type === 'frames'){
         const dir = `${workingDir}/Frames/`;
         let compileDir = `${workingDir}/${config.name}-v${config.version}-${compileTime.getHours()}:${compileTime.getMinutes()}:${compileTime.getSeconds()}_${compileTime.getDate()}_${compileTime.getMonth()}_${compileTime.getFullYear()}`;
-        
+        makeDir(compileDir);
         let files = [];
         let DATA = [];
         fs.readdirSync(dir).forEach(file => {files.push(file);});
