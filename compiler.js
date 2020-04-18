@@ -93,6 +93,18 @@ function jsonSort(type){
                 dbug(DATA);
             } catch (err) {console.error(err);}
         };
+    } else if(type === 'core bonus'){
+        const dir = `${workingDir}/Core Bonuses/`;
+        fs.readdirSync(dir).forEach(file => {files.push(file);});
+        dbug(`Initalizing Type: ${type}`)
+        for (i = 0; i < files.length; i++) {
+            console.log(`ITEM: ${dir}${files[i]}`);
+            try {
+                DATA.push(JSON.parse(fs.readFileSync(`${dir}${files[i]}`)));
+                dbug(`Outputting ${dir}${files[i]}`)
+                dbug(DATA);
+            } catch (err) {console.error(err);}
+        };
     } else {console.error(`Type: ${type} not valid`);}
     makeJSONFile(`${compileDir}/${type}`, DATA);
 }
