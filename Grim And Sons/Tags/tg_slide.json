@@ -1,0 +1,5 @@
+{
+	"id": "tg_slide",
+	"name": "SLIDE",
+	"description": "Any movement made by a system or action with the Slide movement type does not trigger Reactions."
+}

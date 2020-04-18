@@ -1,0 +1,40 @@
+{
+  "source": "G&S",
+  "license": "SCHEHERAZADE",
+  "license_level": 1,
+  "effect": {
+    "effect_type": "Offensive",
+    "detail": "This weapon has six chambers, all of which are reloaded when you perform a reload and can be fired individually with the base profile or together to increase the base damage of this weapon by +1 for each additional chamber fired. You must declare how many chambers you are firing before rolling to attack.",
+  "description": "A reliable mech-scale revolver wasn’t actually part of the original designs of the Scheherazade core, but G&S can’t really let out a mech without at least one gun. Plus they don’t know how to build the original weapon meant to be used by the mech. Such manufacturing is beyond them and they are loathe to let the original Scheherazade data be seen by any not blood related to the Grimm clan.",
+  "data_type": "weapon",
+  "aptitude": {},
+  "id": "GS_morgiana_revolver",
+  "name": "“Morgiana” Revolver",
+  "mount": "Aux",
+  "type": "CQB",
+  "range": [
+    {
+      "type": "range",
+      "val": 5
+    }
+  ],
+  "damage": [
+    {
+      "type": "kinetic",
+      "val": 1
+    }
+  ],
+  "description": "",
+  "tags": [
+    {
+      "id": "tg_loading_limited"
+    },
+    {
+      "id": "tg_inaccurate"
+    }
+    {
+      "id": "tg_limited",
+	"val": 6
+    },
+  ]
+}
