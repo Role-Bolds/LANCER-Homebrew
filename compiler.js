@@ -7,7 +7,7 @@ const debug = false;
 const config = JSON.parse(fs.readFileSync(`${workingDir}/lcp_manifest.json`));
 const manufacturers = JSON.parse(fs.readFileSync(`${workingDir}/manufacturers.json`));
 
-const compileDir = `${workingDir}/${config.name}-v${config.version}-${compileTime.getHours()}:${compileTime.getMinutes()}:${compileTime.getSeconds()}_${compileTime.getDate()}_${compileTime.getMonth()}_${compileTime.getFullYear()}`;
+const compileDir = `${workingDir}/${config.name}-v${config.version}-${compileTime.getHours()}${compileTime.getMinutes()}${compileTime.getSeconds()}-${compileTime.getDate()}_${compileTime.getMonth()}_${compileTime.getFullYear()}`;
 
 function dbug(message){
     if(debug){console.log(`[DEBUG] ${message}`)};
