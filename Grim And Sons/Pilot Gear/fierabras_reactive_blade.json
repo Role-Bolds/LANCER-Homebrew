@@ -1,0 +1,26 @@
+{
+  "name": "“Fierabras” Reactive Blade",
+  "type": "weapon",
+  "description": "We probably shouldn’t make explosive swords this large, and yet, we do. It coats itself in reactive plating and aggressive nanobots that dig themselves into whatever you happen to hit with it. Please be careful. Or big enough to hold the sword. Technically you need to be in a hardsuit to even lift it when under gravity. \nThis weapon is treated as a superheavy melee weapon, it needs a barrage action to attack.",
+  "tags": [
+    {
+      "id": "tg_gear"
+    }
+  ],
+  "damage": [
+    {
+      "type": "explosive",
+      "val": 1
+    },
+  {
+      "type": "burn",
+      "val": 1
+    }
+  ],
+  "range": [
+    {
+      "type": "threat",
+      "val": 1
+    }
+  ]
+}

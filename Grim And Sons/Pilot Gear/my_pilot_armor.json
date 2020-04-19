@@ -1,0 +1,15 @@
+{
+  "name": "My Pilot Armor",
+  "type": "armor",
+  "description": "This specialized hardsuit is meant for use in the foundries and grav-forges of Grimm & Sons, named for the set of silvery mechanical tool-tendrils that carry everything a master craftsman of the Craft-Clans of Donald’s Rest could use, ESPECIALLY Afanasyev \nYou may spend a Full Action to end Burn on a friendly adjacent mech.. Additionally you may move objects as if you were a size 1 mech",
+  "tags": [
+    {
+      "id": "tg_personal_armor"
+    }
+  ],
+  "hp_bonus": 0,
+  "armor": 1,
+  "evasion": 10,
+  "edef": 10,
+  "speed": 4
+}
