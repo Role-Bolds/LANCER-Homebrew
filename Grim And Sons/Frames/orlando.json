@@ -5,6 +5,7 @@
     "mechtype": [
         "Striker"
     ],
+    "image_url": "https://i.imgur.com/hyDPHmH.png",
     "y_pos": 28,
     "description": "The Absolute Newest, the very Pinnacle of G&S Design, the Orlando is built to do one thing, and one thing alone. To lead the charge. Given only to Pilots with strong ties to the Grimm clan (or with the cash and prestige to get into such inner circles), the Orlando will be ready for full production within the standard year… If the tests keep going as well as they’re going at least. Lotta melted engines in this one. G&S promises that the full production run DEFINITELY won’t do the thing the prototypes sometimes do, which is get stuck in full gear and careen through a couple of buildings and off a cliff. Good news is the prototypes were going fast enough to activate the Curtana Active Shield! Bad news is they were going fast enough to give the test pilots whiplash of the everything.",
     "mounts": [
@@ -55,6 +56,5 @@
         ]
     },
     "data_type": "frame",
-    "aptitude": {},
-    "image_url": "https://i.imgur.com/hyDPHmH.png"
+    "aptitude": {}
 }

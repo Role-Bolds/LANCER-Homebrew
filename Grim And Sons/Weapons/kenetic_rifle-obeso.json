@@ -2,9 +2,10 @@
   "name": "OBESO",
   "mount": "Heavy",
   "type": "Rifle",
+  "sp":0,
   "damage": [
     {
-      "type": "kinetic",
+      "type": "Kinetic",
       "val": "2d6+4"
     }
   ],

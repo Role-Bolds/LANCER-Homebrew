@@ -4,9 +4,10 @@
     "name": "“Astolfo” Reactive Lance",
     "mount": "Superheavy",
     "type": "Melee",
+    "sp": 0,
     "damage": [
         {
-            "type": "kinetic",
+            "type": "Kinetic",
             "val": "2d6+3"
         }
     ],

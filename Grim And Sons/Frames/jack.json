@@ -6,7 +6,7 @@
     "Support"
   ],
   "image_url": "",
-  "y_pos": "",
+  "y_pos": 0,
   "description": "Built to compliment the Volk, the Grimm & Sons Jack is a solidly built line-mech meant for use on frontier worlds. Boasted that it “Never needs a reload” and “Keeps on going when the going gets tough” the Jack none-the-less suffers from heat problems and problems keeping its signature plasma weapons working when it runs out of cooling racks. Its expertise, however, truly lays in fighting things bigger than itself and supplying others with the means to survive encounters with the kind of frankly stupid huge things one can run into on the frontier. Everyone underestimates the little guy, but Jack has a habit of giant-slaying..",
   "mounts": [
     "Aux/Aux",
@@ -42,7 +42,7 @@
     "active_name": "Climbing the Beanstalk",
     "active_effect": "Gain the following Quick action for the rest of the Scene: The Jack may attempt to Jockey a mech larger than itself that is adjacent with an Agi VS Hull test. If successful the Jack moves into the opposing mech's square and moves when they do. You gain Hard Cover against ranged attacks and the enemy mech can attempt to shake you off with another Agi (Jack) VS Hull (opponent) as a free action on its turn. The mounted mech may attempt to attack the Jack while it Jockeys, but suffers +1 Difficulty when doing so. You also gain the following actions on your turn (using one after you jump on if you have the actions to do so) Sabotage- Inflict either Immobilized or Jammed on the jockeyed mech until the end of their next turn. Wreck- Deal 4 Heat to your target. Open Fire- Fire with one of your weapons, ignoring Armor and Resistance.  Damage is decided by the size of the weapon: Aux (1d3+2) Main (1d6+4)",
     "tags": [
-      {}
+      {"id": ""}
     ],
     "passive_name": "",
     "passive_effect": "",

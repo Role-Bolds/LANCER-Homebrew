@@ -2,7 +2,7 @@
     "id": "ms_paladin_armor",
     "name": "Paladin Armor",
     "type": "System",
-    "sp": "3",
+    "sp": 3,
     "tags": [
         {
             "id": "tg_unique"
@@ -17,7 +17,7 @@
     ],
     "source": "G&S",
     "license": "ORLANDO",
-    "license_level": "3",
+    "license_level": 3,
     "effect": {
         "effect_type": "Reaction",
         "name": "Holy Armor Burst",

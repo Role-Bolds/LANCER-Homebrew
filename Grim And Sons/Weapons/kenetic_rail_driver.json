@@ -11,15 +11,16 @@
   "name": "RAIL-DRIVER",
   "mount": "Main",
   "type": "Melee",
+  "sp": 0,
   "range": [
     {
-      "type": "threat",
+      "type": "Threat",
       "val": 1
     }
   ],
   "damage": [
     {
-      "type": "kinetic",
+      "type": "Kinetic",
       "val": "2d6"
     }
   ],

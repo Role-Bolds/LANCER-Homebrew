@@ -11,19 +11,20 @@
   "name": "PORTABLE MORTAR CANNON",
   "mount": "Main",
   "type": "Cannon",
+  "sp": 0,
   "range": [
     {
-      "type": "range",
+      "type": "Range",
       "val": 10
     },
   {
-      "type": "blast",
+      "type": "Blast",
       "val": 1
     }
   ],
   "damage": [
     {
-      "type": "explosive",
+      "type": "Explosive",
       "val": "2d6+2"
     }
   ],

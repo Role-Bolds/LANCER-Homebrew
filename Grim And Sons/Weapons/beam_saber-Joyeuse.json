@@ -4,9 +4,10 @@
     "name": "“Joyeuse” Beam Saber",
     "mount": "Main",
     "type": "Melee",
+    "sp": 0,
     "damage": [
         {
-            "type": "variable",
+            "type": "Variable",
             "val": "1d6+1"
         }
     ],

@@ -5,6 +5,7 @@
   "mechtype": [
     "Controller"
   ],
+  "image_url": "https://i.imgur.com/UBkFnqz.png",
   "y_pos": 18,
   "description": "Here’s a secret. Grimm & Sons don’t know where the original designs for the mech known as the Scheherazade come from. The original printer specs were found in an ancestral Data-Vault in a hidden room in the Grimm Clan’s familial stronghold. It is the most technologically advanced license, free of the troubles that face other G&S cores. The family does as craftsmen do, they build more and more Scheherazades, tinkering and toying with its pieces, trying to use the seemingly arcane technologies within to further the family fortune. Do they have any idea what they’re toying with? Not really. But does that matter? It is a gift from their Ancestors. [Do you yet understand Mirror-Logic?]",
   "mounts": [
@@ -54,6 +55,5 @@
     ]
   },
   "data_type": "frame",
-  "aptitude": {},
-  "image_url": "https://i.imgur.com/UBkFnqz.png"
+  "aptitude": {}
 }

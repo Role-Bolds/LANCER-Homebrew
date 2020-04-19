@@ -2,9 +2,10 @@
   "name": "'MBORO' DRONES",
   "mount": "Main",
   "type": "Nexus",
+  "sp": 0,
   "damage": [
     {
-      "type": "explosive",
+      "type": "Explosive",
       "val": "4"
     }
   ],

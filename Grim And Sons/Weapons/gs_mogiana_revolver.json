@@ -9,17 +9,18 @@
   "data_type": "weapon",
   "id": "GS_morgiana_revolver",
   "name": "“Morgiana” Revolver",
-  "mount": "Aux",
+  "mount": "Auxiliary",
   "type": "CQB",
+  "sp": 0,
   "range": [
     {
-      "type": "range",
+      "type": "Range",
       "val": 5
     }
   ],
   "damage": [
     {
-      "type": "kinetic",
+      "type": "Kinetic",
       "val": 1
     }
   ],

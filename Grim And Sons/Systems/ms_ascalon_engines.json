@@ -2,7 +2,7 @@
     "id": "ms_ascalon_engines",
     "name": "Ascalon Engines",
     "type": "System",
-    "sp": "2",
+    "sp": 2,
     "tags": [
         {
             "id": "tg_heat_self"
@@ -16,7 +16,7 @@
     ],
     "source": "G&S",
     "license": "ORLANDO",
-    "license_level": "2",
+    "license_level": 2,
     "effect": {
         "effect_type": "Basic",
         "activation": "Free",

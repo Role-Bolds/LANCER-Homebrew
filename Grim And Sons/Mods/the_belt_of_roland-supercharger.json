@@ -3,15 +3,15 @@
     "name": "“The Belt of Roland” Supercharger",
     "sp": 3,
     "applied_to": [
-        "rifle",
-        "cannon",
-        "launcher",
-        "cqb",
-        "nexus",
-        "melee"
+        "Rifle",
+        "Cannon",
+        "Launcher",
+        "CQB",
+        "Nexus",
+        "Melee"
     ],
     "restricted_mounts": [
-        "auxilliary"
+        "Auxilliary"
     ],
     "applied_string": "Any",
     "source": "G&S",

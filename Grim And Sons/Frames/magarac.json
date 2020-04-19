@@ -5,6 +5,7 @@
   "mechtype": [
     "Support"
   ],
+  "image_url": "https://i.imgur.com/jBtMi83.png",
   "y_pos": 18,
   "description": "Imagine it, won't you? We just take one of the orbital forges... and we put legs on it. We make it make things. The smiths and engineers all subalterns networked under a Mother Goose clone and Pilot working in tandem. A fortress. A factory. It'll turn back death. It'll do everything we need to make our Promise. No more working into the grave. Just this. A magnum opus.",
   "mounts": [
@@ -56,6 +57,5 @@
       "passive_effect": "Each time this mech takes damage from a source owned by a hostile character (even if that damage is reduced or ignored), increase it’s armor by 1 for the rest of this scene, up to a maximum increase of 6 (you can use a die to track this)."
   },
   "data_type": "frame",
-  "aptitude": {},
-  "image_url": "https://i.imgur.com/jBtMi83.png"
+  "aptitude": {}
 }

@@ -5,6 +5,7 @@
   "mechtype": [
     "Striker"
   ],
+  "image_url": "https://i.imgur.com/Oe7Noay.png",
   "y_pos": 18,
   "description": "Formerly an Industrial Mech meant for work both in Colony-building and in the maintenance of Solar Rails, the G&S John Henry is a legacy suite of tools and weapons meant for the dangerous work of building beyond the comfort of atmosphere. When the original Contract  with Union that gave birth to the John Henry was up; G&S were rich enough to play on the galactic field, but out of a job. So what did they do? They repackaged John Henry for military licensing, spinning a successful industrial mech into a battlemech and creating the rough and tumble legacy of Grimm & Sons. Without the John Henry, G&S would not exist.",
   "mounts": [
@@ -62,6 +63,5 @@
       }
   },
   "data_type": "frame",
-  "aptitude": {},
-  "image_url": "https://i.imgur.com/Oe7Noay.png"
+  "aptitude": {}
 }
