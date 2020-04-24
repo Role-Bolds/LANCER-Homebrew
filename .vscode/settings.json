@@ -1,0 +1,94 @@
+{
+	"json.schemas": [
+		{
+			"fileMatch": [
+			  "/Core Bonuses/*.json",
+			  "/core_bonus.json"
+			],
+			"url": "./.vscode/schemas/core_bonus.schema.json"
+		},
+		{
+			"fileMatch": [
+			  "/Frames/*.json",
+			  "/franes.json"
+			],
+			"url": "./.vscode/schemas/frames.schema.json"
+		  },
+		{
+		"fileMatch": [
+			"/lcp_manifest.json"
+		],
+		"url": "./.vscode/schemas/lcp_manifest.schema.json"
+		},
+		{
+			"fileMatch": [
+			  "/Manufacturers/*.json",
+			  "/manufacturers.json"
+			],
+			"url": "./.vscode/schemas/manufacturers.schema.json"
+		},
+		{
+			"fileMatch": [
+			  "/Mods/*.json",
+			  "/mods.json"
+			],
+			"url": "./.vscode/schemas/mods.schema.json"
+		},
+		{
+			"fileMatch": [
+			  "/NPC Classes/*.json",
+			  "/npc_classes.json"
+			],
+			"url": "./.vscode/schemas/npc_classes.schema.json"
+		  },
+		{
+		  "fileMatch": [
+			"/NPC Features/*.json",
+			"/npc_features.json"
+		  ],
+		  "url": "./.vscode/schemas/npc_features.schema.json"
+		},
+		{
+			"fileMatch": [
+			  "/NPC Templates/*.json",
+			  "/npc_templates.json"
+			],
+			"url": "./.vscode/schemas/npc_templates.schema.json"
+		},
+		{
+			"fileMatch": [
+			  "/Pilot Gear/*.json",
+			  "/pilot_gear.json"
+			],
+			"url": "./.vscode/schemas/pilot_gear.schema.json"
+		},
+		{
+			"fileMatch": [
+			  "/Systems/*.json",
+			  "/systems.json"
+			],
+			"url": "./.vscode/schemas/systems.schema.json"
+		},
+		{
+			"fileMatch": [
+			  "/Tags/*.json",
+			  "/tags.json"
+			],
+			"url": "./.vscode/schemas/tags.schema.json"
+		},
+		{
+			"fileMatch": [
+			  "/Talents/*.json",
+			  "/talents.json"
+			],
+			"url": "./.vscode/schemas/talents.schema.json"
+		},
+		{
+			"fileMatch": [
+			  "/Weapons/*.json",
+			  "/weapons.json"
+			],
+			"url": "./.vscode/schemas/weapons.schema.json"
+		}
+	]
+}

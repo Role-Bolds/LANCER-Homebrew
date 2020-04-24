@@ -1,0 +1,85 @@
+{
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/Pick<IMechWeaponData,\"source\"|\"name\"|\"license\"|\"license_level\"|\"description\"|\"counters\"|\"effect\"|\"mount\"|\"type\"|\"damage\"|\"range\"|\"sp\"|\"tags\"|\"talent_item\"|\"frame_id\">"
+  },
+  "definitions": {
+    "Pick<IMechWeaponData,\"source\"|\"name\"|\"license\"|\"license_level\"|\"description\"|\"counters\"|\"effect\"|\"mount\"|\"type\"|\"damage\"|\"range\"|\"sp\"|\"tags\"|\"talent_item\"|\"frame_id\">": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "license_level": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        },
+        "counters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ICounterData"
+          }
+        },
+        "effect": {
+          "type": "string"
+        },
+        "mount": {
+          "$ref": "#/definitions/WeaponSize"
+        },
+        "type": {
+          "$ref": "#/definitions/WeaponType"
+        },
+        "damage": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IDamageData"
+          }
+        },
+        "range": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IRangeData"
+          }
+        },
+        "sp": {
+          "type": "number"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ITagData"
+          }
+        },
+        "talent_item": {
+          "type": "boolean"
+        },
+        "frame_id": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "damage",
+        "description",
+        "effect",
+        "license",
+        "license_level",
+        "mount",
+        "name",
+        "range",
+        "source",
+        "sp",
+        "tags",
+        "type"
+      ]
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

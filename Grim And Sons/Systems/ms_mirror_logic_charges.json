@@ -1,4 +1,4 @@
-{
+[{
     "id": "ms_mirror_logic_charges",
     "name": "Mirror Logic Charges",
     "type": "Deployable",
@@ -46,4 +46,4 @@
     "description": "[The Foundation of Mirror-Logic is showing them where they stand. The Advances of Mirror Logic are to show them how they must act. They were never to fire, they were never to walk, they were never to be. And yet in this dream they are.]<br>[Correct it.]",
     "data_type": "system",
     "aptitude": {}
-}
+}]

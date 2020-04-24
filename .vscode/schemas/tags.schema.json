@@ -1,0 +1,57 @@
+{
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/Pick<Pick<ITagCompendiumData,\"hidden\"|\"name\"|\"description\"|\"counters\"|\"filter_ignore\">,\"name\"|\"description\"|\"counters\">"
+  },
+  "definitions": {
+    "Pick<Pick<ITagCompendiumData,\"hidden\"|\"name\"|\"description\"|\"counters\"|\"filter_ignore\">,\"name\"|\"description\"|\"counters\">": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "counters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ICounterData"
+          }
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ]
+    },
+    "ICounterData": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        },
+        "defaultValue": {
+          "type": "number"
+        },
+        "custom": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

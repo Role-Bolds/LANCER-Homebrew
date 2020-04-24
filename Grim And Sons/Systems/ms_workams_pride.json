@@ -1,4 +1,4 @@
-{
+[{
   "id": "ms_workmans_pride",
   "name": "WORKMAN'S PRIDE",
   "type": "System",
@@ -23,4 +23,4 @@
   "description": "Inside the mech sits a man, and the man who uses the John Henry on a Solar Rail with a dozen others knows that this kind of work can only be done by skilled humans. No Drone or AI program can ever truly replace the swing of the hammer and the heat of the reactor. This song is the final gift of Master Grimm LV, a man born a steel-driver.",
   "data_type": "system",
   "aptitude": {}
-}
+}]

@@ -1,4 +1,4 @@
-{
+[{
   "name": "OBESO",
   "mount": "Heavy",
   "type": "Rifle",
@@ -27,4 +27,4 @@
   "description": "A simple, high powered rifle is really best, don’t you think? A simple speed-loading system makes this deadly rifle a pilot’s favorite, especially when they get “In the zone” of firing. Br’er Spider knows why it's named this way. Obeso was mighty indeed, and the rifle with his name is just as good at killing.",
   "data_type": "weapon",
   "aptitude": {}
-}
+}]

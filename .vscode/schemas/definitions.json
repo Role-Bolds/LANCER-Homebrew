@@ -1,0 +1,189 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+
+    "definitions": {
+        "effect": {
+            "oneOf":[
+              {"type": "string"},
+              {"type": "object",
+                "properties": {
+                  "effect_type": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "activation": {
+                    "type": "string"
+                  },
+                  "detail": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "number"
+                  },
+                  "size": {
+                    "type": "number"
+                  },
+                  "edef": {
+                    "type": "number"
+                  },
+                  "hp": {
+                    "type": "number"
+                  },
+                  "evasion": {
+                    "type": "number"
+                  },
+                  "tags": {
+                    "$ref": "#/definitions/ITagData"
+                  },
+                  "options": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "detail": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "detail"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+        "ICounterData": {
+            "type": "object",
+            "properties": {
+                "id": {
+                "type": "string"
+                },
+                "name": {
+                "type": "string"
+                },
+                "min": {
+                "type": "number"
+                },
+                "max": {
+                "type": "number"
+                },
+                "defaultValue": {
+                "type": "number"
+                },
+                "custom": {
+                "type": "boolean"
+                }
+            },
+            "required": [
+                "id",
+                "name"
+            ]
+        },
+        "WeaponSize": {
+        "enum": [
+            "Auxiliary",
+            "Heavy",
+            "Main",
+            "Superheavy"
+        ],
+        "type": "string"
+        },
+        "WeaponType": {
+        "enum": [
+            "CQB",
+            "Cannon",
+            "Launcher",
+            "Melee",
+            "Nexus",
+            "Rifle"
+        ],
+        "type": "string"
+        },
+        "IDamageData": {
+        "type": "object",
+        "properties": {
+            "type": {
+            "$ref": "#/definitions/DamageType"
+            },
+            "val": {
+            "type": [
+                "string",
+                "number"
+            ]
+            },
+            "override": {
+            "type": "boolean"
+            }
+        },
+        "required": [
+            "type",
+            "val"
+        ]
+        },
+        "DamageType": {
+        "enum": [
+            "Burn",
+            "Energy",
+            "Explosive",
+            "Heat",
+            "Kinetic",
+            "Variable"
+        ],
+        "type": "string"
+        },
+        "IRangeData": {
+        "type": "object",
+        "properties": {
+            "type": {
+            "$ref": "#/definitions/RangeType"
+            },
+            "val": {
+            "type": "number"
+            },
+            "override": {
+            "type": "boolean"
+            },
+            "bonus": {
+            "type": "number"
+            }
+        },
+        "required": [
+            "type",
+            "val"
+        ]
+        },
+        "RangeType": {
+        "enum": [
+            "Blast",
+            "Burst",
+            "Cone",
+            "Line",
+            "Range",
+            "Threat",
+            "Thrown"
+        ],
+        "type": "string"
+        },
+        "ITagData": {
+        "type": "object",
+        "properties": {
+            "id": {
+            "type": "string"
+            },
+            "val": {
+            "type": [
+                "string",
+                "number"
+            ]
+            }
+        },
+        "required": [
+            "id"
+        ]
+        }
+    }
+}

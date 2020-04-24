@@ -1,4 +1,4 @@
-{
+[{
     "name": "Wise//Gourd",
     "type": "System",
     "sp": 2,
@@ -14,4 +14,4 @@
     "description": "One day, Br’er Spider remembered a story about how he put all of the wisdom in the world into a gourd and how in his revelry at being so clever (and so drunk off wisdom) that he spilled the gourd. But, Br’er spider remembers where he spilled the Wisdom. He knows how to look for places that need his eyes on them. He can teach you too.",
     "data_type": "system",
     "aptitude": {}
-}
+}]

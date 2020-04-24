@@ -1,4 +1,4 @@
-{
+[{
     "id": "ms_paladin_armor",
     "name": "Paladin Armor",
     "type": "System",
@@ -27,4 +27,4 @@
     "description": "Not all that different from most reactive armors, except that the explosive load is about triple the normal. This is good, as it feeds into the Orlando’s ability to charge in and break open enemy lines by buffeting any foolish to strike it. This is bad, because most mechs can’t carry the extra weight of all the explosives required for the armor AND the explosion can’t really be controlled enough to not damage the mech using the armor.",
     "data_type": "system",
     "aptitude": {}
-}
+}]

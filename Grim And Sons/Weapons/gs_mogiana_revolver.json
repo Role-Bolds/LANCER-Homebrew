@@ -1,4 +1,4 @@
-{
+[{
   "source": "G&S",
   "license": "SCHEHERAZADE",
   "license_level": 1,
@@ -37,4 +37,4 @@
     }
   ],
   "aptitude": {}
-}
+}]

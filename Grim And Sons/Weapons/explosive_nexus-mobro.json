@@ -1,4 +1,4 @@
-{
+[{
   "name": "'MBORO' DRONES",
   "mount": "Main",
   "type": "Nexus",
@@ -34,4 +34,4 @@
   "description": "One day, Br’er Spider remembered an old story about how he caught some hornets in a calabash and how he made them promise to only sting his enemies. These drones are like that. Little hornets, just for you, loaded with high explosives and let loose to find Br’er Spider’s enemies.",
   "data_type": "weapon",
   "aptitude": {}
-}
+}]

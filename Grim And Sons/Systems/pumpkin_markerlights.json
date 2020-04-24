@@ -1,4 +1,4 @@
-{
+[{
   "name": "Pumpkin Markerlights",
   "type": "System",
   "sp": 2,
@@ -18,4 +18,4 @@
   "description": "A system of integrated launchers fire a sort of ‘sticky’ chaff that both clings to targets and, through simple chemical reactions with the heat produced by mechs, releases a glow that makes shooting them all the easier. It's actually named for the bright orange color of the sticky chaff, something many pilots have called “festive”.",
   "data_type": "system",
   "aptitude": {}
-}
+}]

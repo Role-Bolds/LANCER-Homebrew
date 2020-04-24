@@ -1,6 +1,6 @@
-{
+[{
     "name": "“Angel’s Gift” Flash Printer",
     "source": "G&S",
     "description": "This small printer is a boon to most G&S pilots with their strict weight and ammo counts; almost none of them complain about the fact that printed materials are generally… suboptimal. Not recommended for general use. But hey, the craftsmen of Clan Anlamani swear by its effectiveness!",
     "effect": "Once per mission you may give a spent Limited (X) system or weapon (a system without any Limited charges left) 1/2 its uses back. However until the end of the mission, before using the system or weapon, you must roll 1d6. If the result is 1, the system does not activate and the Limited charge is spent."
-}
+}]

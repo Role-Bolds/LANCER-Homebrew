@@ -1,4 +1,4 @@
-{
+[{
   "source": "G&S",
   "name": "BUNYAN",
   "mechtype": [
@@ -65,4 +65,4 @@
         "max": 12
       }
     ]
-}
+}]

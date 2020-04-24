@@ -1,0 +1,79 @@
+{
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/Pick<ITalentData,\"name\"|\"description\"|\"counters\"|\"ranks\">"
+  },
+  "definitions": {
+    "Pick<ITalentData,\"name\"|\"description\"|\"counters\"|\"ranks\">": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "counters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ICounterData"
+          }
+        },
+        "ranks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ITalentRank"
+          }
+        }
+      },
+      "required": [
+        "description",
+        "name",
+        "ranks"
+      ]
+    },
+    "ICounterData": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        },
+        "defaultValue": {
+          "type": "number"
+        },
+        "custom": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "ITalentRank": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "description",
+        "name"
+      ]
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

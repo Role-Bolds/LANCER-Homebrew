@@ -1,4 +1,4 @@
-{
+[{
   "name": "“Samiel” Plasma-Caster",
   "type": "weapon",
   "description": "Hey, if it doesn't explode in your hands, it'll kill some fools dead. We basically just took a Jack plasma pistol and put a human sized trigger on it.",
@@ -23,4 +23,4 @@
       "val": 5
     }
   ]
-}
+}]

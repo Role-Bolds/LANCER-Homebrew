@@ -1,4 +1,4 @@
-{
+[{
     "name": "Golden Goose Drone Nexus",
     "type": "Drone",
     "sp": 3,
@@ -15,4 +15,4 @@
     "description": "Is the “Golden Goose” drone based on nigh ancient resupply drones? Maybe. But it's one of the newest pieces of tech put into the Jack. The drone actually uses a nanoslurry  to create a cloud of nanobots that slowly (but effectively) heal both the Jack and anything sharing its Tacnet. But that’s not all! The Golden Goose can ‘burn’ itself, injecting its full payload of nanoslurry into a mech for major repairs! But wait! Dear customer there’s one more little function baked into the thing: “Savior Protocols”! A simple modification to the drone’s damage calculators allow it to tell when an attack may do unacceptable harm to its charges and the drone is happy enough to sacrifice itself for the good of the unit.",
     "data_type": "system",
     "aptitude": {}
-}
+}]

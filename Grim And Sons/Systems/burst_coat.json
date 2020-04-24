@@ -1,4 +1,4 @@
-{
+[{
   "name": "Burst Coat",
   "type": "System",
   "sp": 2,
@@ -21,4 +21,4 @@
   "description": "Utilizing the properties of Adamant Compounds, this system of armor plates are placed strategically throughout the mech, usually mapping to a simple six point plate system. Hooked directly into the mech’s core, these plates may draw power from said core to violently vibrate, creating strange electromagnetic* signals that baffle most targeting systems (or your manna back!)",
   "data_type": "system",
   "aptitude": {}
-}
+}]

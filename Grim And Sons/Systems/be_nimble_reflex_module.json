@@ -1,7 +1,8 @@
-{
+[
+  {
     "name": "“Be Nimble!” Reflex Module",
     "type": "System",
-    "sp": 2,
+    "sp": 0,
     "tags": [
       {
         "id": "tg_unique"
@@ -14,4 +15,5 @@
     "description": "A sort of “recorded muscle memory” that is installed into a mech, allowing for incredible feats of... mostly shooting right back at anyone dumb enough to open fire on you. An odd little quirk of the Reflex Module is that many pilots report a better subjectivity sync with their Jack; something G&S marks up to the comforting feeling of muscle memory. Even if the muscle is myomar.",
     "data_type": "system",
     "aptitude": {}
-}
+  }
+]

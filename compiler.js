@@ -1,14 +1,25 @@
+/*
+    Lancer Corporate Profile Compiler
+    Copyright 2020 Github:RowenStipe
+
+    requires npm library: archiver
+*/
+
 const fs = require('fs');
 const archiver = require('archiver');
 const compileTime = new Date();
 
-const workingDir = `./Grim And Sons`;
-const debug = true;
+const workingDir = `./Grim And Sons`; // The top level directory where 
+const debug = true; // Set [DBUG] messages on/true or off/false
 
 const config = JSON.parse(fs.readFileSync(`${workingDir}/lcp_manifest.json`));
 const manufacturers = JSON.parse(fs.readFileSync(`${workingDir}/manufacturers.json`));
 
-let compileDir = `${workingDir}/${config.name}-v${config.version}-${compileTime.getHours()}${compileTime.getMinutes()}${compileTime.getSeconds()}-${compileTime.getDate()}_${compileTime.getMonth()}_${compileTime.getFullYear()}`;
+/*
+    Directories to compile to.
+    compileDir e.g. example-v[string]-DD_MM_YYYY-HHMMSS
+*/
+let compileDir = `${workingDir}/${config.name}-v${config.version}-${compileTime.getDate()}_${compileTime.getMonth()}_${compileTime.getFullYear()}-${compileTime.getHours()}${compileTime.getMinutes()}${compileTime.getSeconds()}`;
 let compileDirOptional = `${compileDir}-optional`
 
 function dbug(message){
@@ -31,92 +42,78 @@ function makeJSONFile(type, DATA){
     });
 }
 
-function jsonSort(type, standard=true, optional=false){    
+function parseJSONFile(dir, file, wholeFile=false){
+
+    // DATA, dir, files | bake first object prefrence in
+    let DATA = [];
+
+    if(!wholeFile){
+        try {
+            DATA.push(JSON.parse(fs.readFileSync(`${dir}${file}`))[0]); // We only care about the first object
+            dbug(`Outputting ${dir}${file}`);
+            dbug(DATA);
+        } catch (err) {console.error(err);}
+        return DATA;
+    } else {
+        try {
+            DATA.push(JSON.parse(fs.readFileSync(`${dir}${file}`))); // Accept whole file
+            dbug(`Outputting ${dir}${file}`);
+            dbug(DATA);
+        } catch (err) {console.error(err);}
+        return DATA;
+    }
+}
+
+function jsonSort(type, optional=false){    
     let files = [];
     let DATA = [];
-    if(type === 'frames' && standard){
+    if(type === 'frames'){
         const dir = `${workingDir}/Frames/`;
         fs.readdirSync(dir).forEach(file => {files.push(file);});
         dbug(`Initalizing Type: ${type}`);
         for (i = 0; i < files.length; i++) {
             console.log(`ITEM: ${dir}${files[i]}`);
-            try {
-                DATA.push(JSON.parse(fs.readFileSync(`${dir}${files[i]}`)));
-                dbug(`Outputting ${dir}${files[i]}`)
-                dbug(DATA);
-            } catch (err) {console.error(err);}
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
         }
-    } else if(type === 'weapons' && standard){
+    } else if(type === 'weapons'){
         const dir = `${workingDir}/Weapons/`;
         fs.readdirSync(dir).forEach(file => {files.push(file);});
         dbug(`Initalizing Type: ${type}`);
         for (i = 0; i < files.length; i++) {
             console.log(`ITEM: ${dir}${files[i]}`);
-            try {
-                DATA.push(JSON.parse(fs.readFileSync(`${dir}${files[i]}`)));
-                dbug(`Outputting ${dir}${files[i]}`);
-                dbug(DATA);
-            } catch (err) {console.error(err);}
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
         }
-    } else if(type === 'tags' && standard){
+    } else if(type === 'tags'){
         const dir = `${workingDir}/Tags/`;
         fs.readdirSync(dir).forEach(file => {files.push(file);});
         dbug(`Initalizing Type: ${type}`);
         for (i = 0; i < files.length; i++) {
             console.log(`ITEM: ${dir}${files[i]}`);
-            try {
-                DATA.push(JSON.parse(fs.readFileSync(`${dir}${files[i]}`)));
-                dbug(`Outputting ${dir}${files[i]}`);
-                dbug(DATA);
-            } catch (err) {console.error(err);}
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
         }
-    } else if(type === 'mods' && standard){
+    } else if(type === 'mods'){
         const dir = `${workingDir}/Mods/`;
         fs.readdirSync(dir).forEach(file => {files.push(file);});
         dbug(`Initalizing Type: ${type}`);
         for (i = 0; i < files.length; i++) {
             console.log(`ITEM: ${dir}${files[i]}`);
-            try {
-                DATA.push(JSON.parse(fs.readFileSync(`${dir}${files[i]}`)));
-                dbug(`Outputting ${dir}${files[i]}`);
-                dbug(DATA);
-            } catch (err) {console.error(err);}
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
         }
-    } else if(type === 'systems' && standard){
+    } else if(type === 'systems'){
         const dir = `${workingDir}/Systems/`;
         fs.readdirSync(dir).forEach(file => {files.push(file);});
         dbug(`Initalizing Type: ${type}`);
         for (i = 0; i < files.length; i++) {
             console.log(`ITEM: ${dir}${files[i]}`);
-            try {
-                DATA.push(JSON.parse(fs.readFileSync(`${dir}${files[i]}`)));
-                dbug(`Outputting ${dir}${files[i]}`);
-                dbug(DATA);
-            } catch (err) {console.error(err);}
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
         }
-    } else if(type === 'core_bonus' && standard){
+    } else if(type === 'core_bonuses'){
         const dir = `${workingDir}/Core Bonuses/`;
         fs.readdirSync(dir).forEach(file => {files.push(file);});
         dbug(`Initalizing Type: ${type}`);
         for (i = 0; i < files.length; i++) {
             console.log(`ITEM: ${dir}${files[i]}`);
-            try {
-                DATA.push(JSON.parse(fs.readFileSync(`${dir}${files[i]}`)));
-                dbug(`Outputting ${dir}${files[i]}`);
-                dbug(DATA);
-            } catch (err) {console.error(err);}
-        }
-    } else if(type === 'pilot_gear' && standard){
-        const dir = `${workingDir}/Pilot Gear/`;
-        fs.readdirSync(dir).forEach(file => {files.push(file);});
-        dbug(`Initalizing Type: ${type}`)
-        for (i = 0; i < files.length; i++) {
-            console.log(`ITEM: ${dir}${files[i]}`);
-            try {
-                DATA.push(JSON.parse(fs.readFileSync(`${dir}${files[i]}`)));
-                dbug(`Outputting ${dir}${files[i]}`)
-                dbug(DATA);
-            } catch (err) {console.error(err);}
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
         }
     } else {console.error(`Type: ${type} not valid`); return null}
     if(!optional){makeJSONFile(`${compileDir}/${type}`, DATA);}
@@ -156,20 +153,15 @@ function makeZip(optional=false){
     archive.on('warning', function(err) {
         if (err.code === 'ENOENT') {
         console.error(err);
-        } else {
-        // throw error
-        throw err;
-        }
+        } else {throw err;}
     });
-    
-    // good practice to catch this error explicitly
+
     archive.on('error', function(err) {
         throw err;
     });
-   
-    // pipe archive data to the file
-    archive.pipe(output);
-    
+
+    archive.pipe(output);   
+
     dbug(`Initalizing files to zip`)
     for (i = 0; i < files.length; i++) {
         console.log(`ZIPPING ITEM: ${dir}/${files[i]}`);
@@ -192,7 +184,7 @@ function compile(optional=false){
         makeJSONFile(`${compileDir}/manufacturers`, manufacturers);
     }else{
         makeDir(compileDirOptional);
-        jsonSort('pilot_gear',true,true);
+        jsonSort('pilot_gear',true);
         config.name = `${config.name} - Pilot Gear`;
         makeJSONFile(`${compileDirOptional}/lcp_manifest`, config);
     }

@@ -1,4 +1,4 @@
-{
+[{
   "name": "BRIAR PATCH LAUNCHER",
   "mount": "Auxiliary",
   "type": "Launcher",
@@ -31,4 +31,4 @@
   "description": "One day, Br’er Spider remembered a story about how his three enemies Mboro, Onini, and Obeso caught him in a clever trap involving some delicious yams. While arguing what to do with him, Br’er Spider begged them, do not throw him into the briar patch! So that’s where they threw him. Idiots. We worked hard to make something good enough, just for you. A gun that shoots mines all chained together and ready to go. It’ll make a Briar Patch for you to hide in.",
   "data_type": "weapon",
   "aptitude": {}
-}
+}]

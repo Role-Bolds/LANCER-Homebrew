@@ -1,4 +1,4 @@
-{
+[{
   "source": "G&S",
   "name": "ANANSI",
   "mechtype": [
@@ -59,4 +59,4 @@
   "data_type": "frame",
   "aptitude": {},
   "counters": []
-}
+}]

@@ -1,0 +1,216 @@
+{
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/Pick<IWeaponModData,\"source\"|\"name\"|\"license\"|\"license_level\"|\"description\"|\"counters\"|\"effect\"|\"sp\"|\"tags\"|\"talent_item\"|\"frame_id\"|\"applied_to\"|\"applied_string\"|\"restricted_mounts\"|\"added_tags\"|\"added_damage\"|\"added_range\">"
+  },
+  "definitions": {
+    "Pick<IWeaponModData,\"source\"|\"name\"|\"license\"|\"license_level\"|\"description\"|\"counters\"|\"effect\"|\"sp\"|\"tags\"|\"talent_item\"|\"frame_id\"|\"applied_to\"|\"applied_string\"|\"restricted_mounts\"|\"added_tags\"|\"added_damage\"|\"added_range\">": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "license_level": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        },
+        "counters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ICounterData"
+          }
+        },
+        "effect": {
+          "type": "string"
+        },
+        "sp": {
+          "type": "number"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ITagData"
+          }
+        },
+        "talent_item": {
+          "type": "boolean"
+        },
+        "frame_id": {
+          "type": "boolean"
+        },
+        "applied_to": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "CQB",
+              "Cannon",
+              "Launcher",
+              "Melee",
+              "Nexus",
+              "Rifle"
+            ],
+            "type": "string"
+          }
+        },
+        "applied_string": {
+          "type": "string"
+        },
+        "restricted_mounts": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "Auxiliary",
+              "Heavy",
+              "Main",
+              "Superheavy"
+            ],
+            "type": "string"
+          }
+        },
+        "added_tags": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ITagData"
+          }
+        },
+        "added_damage": {
+          "$ref": "#/definitions/IDamageData"
+        },
+        "added_range": {
+          "$ref": "#/definitions/IRangeData"
+        }
+      },
+      "required": [
+        "applied_string",
+        "applied_to",
+        "description",
+        "effect",
+        "license",
+        "license_level",
+        "name",
+        "restricted_mounts",
+        "source",
+        "sp",
+        "tags"
+      ]
+    },
+    "ICounterData": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        },
+        "defaultValue": {
+          "type": "number"
+        },
+        "custom": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "ITagData": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "val": {
+          "type": [
+            "string",
+            "number"
+          ]
+        }
+      },
+      "required": [
+        "id"
+      ]
+    },
+    "IDamageData": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "$ref": "#/definitions/DamageType"
+        },
+        "val": {
+          "type": [
+            "string",
+            "number"
+          ]
+        },
+        "override": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "type",
+        "val"
+      ]
+    },
+    "DamageType": {
+      "enum": [
+        "Burn",
+        "Energy",
+        "Explosive",
+        "Heat",
+        "Kinetic",
+        "Variable"
+      ],
+      "type": "string"
+    },
+    "IRangeData": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "$ref": "#/definitions/RangeType"
+        },
+        "val": {
+          "type": "number"
+        },
+        "override": {
+          "type": "boolean"
+        },
+        "bonus": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "type",
+        "val"
+      ]
+    },
+    "RangeType": {
+      "enum": [
+        "Blast",
+        "Burst",
+        "Cone",
+        "Line",
+        "Range",
+        "Threat",
+        "Thrown"
+      ],
+      "type": "string"
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

@@ -1,4 +1,4 @@
-{
+[{
     "id": "ms_displacement_mirrors",
     "name": "Displacement Mirrors",
     "type": "System",
@@ -32,4 +32,4 @@
     "description": "[Look, the desert gives up its gifts to us. We shall be a ghost, a figment, a dream, a mirage. If they strike at you, they strike only a reflection. They are already within the Dream, they have done this before and shall do so again. Such is the nature of Mirror-Logic.]",
     "data_type": "system",
     "aptitude": {}
-}
+}]

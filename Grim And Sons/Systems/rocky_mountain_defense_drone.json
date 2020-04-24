@@ -1,4 +1,4 @@
-{
+[{
   "name": "Rocky Mountain Defense Drone",
   "type": "Drone",
   "sp": 2,
@@ -18,4 +18,4 @@
   "description": "There’s this story, from the Vaults, (from the Homeland, from Cradle) about a giant of a man who with an ax, an ox, and his will, tore mountains up from flat plains to defend his countrymen from an invading army lead by an evil saint. We made this, so you can be a hero too. Use it well pilot, use it well",
   "data_type": "system",
   "aptitude": {}
-}
+}]

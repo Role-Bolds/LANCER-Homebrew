@@ -1,4 +1,4 @@
-{
+[{
     "name": "Ox-Class Musculature Reinforcement",
     "type": "System",
     "sp": 2,
@@ -14,4 +14,4 @@
     "description": "“Strong as an Ox!” That’s what they say about people, but what about mechs? Well we decided that reinforcing the myomar musculature should get you enough lifting and hauling power to either build a city or tear it down, seemed easy enough to sell at least.",
     "data_type": "system",
     "aptitude": {}
-}
+}]

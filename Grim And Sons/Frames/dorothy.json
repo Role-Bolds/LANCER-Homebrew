@@ -1,0 +1,54 @@
+[{
+    "source": "G&S",
+    "name": "DOROTHY",
+    "mechtype": [
+    "Support"
+    ],
+    "image_url": "https://media.discordapp.net/attachments/699402836672380960/700863897942622279/TXyqbCu.png?width=558&height=390",
+    "y_pos": 0,
+    "description": "Dorothy was designed for something other than the battlefield, like her brothers and sisters in the G&S line up. She was built for search and rescue operations, to move into and through destruction and flames and get humans to safety, utilizing a simple nanite-driven suppression foam as the signature system. Of course, the Grimm clan can’t help themselves, taking a tool built by their relatives in Clan Zahedi and turning it into a combat support mech. With just slight modifications its nanite suppression foam becomes ravenous stripper-swarms that work to peel armor off enemy mechs. When the armor is finally peeled off, the swarms bring it to a friendly to help patch them up! Its efficient don’tcha know!",
+    "mounts": [
+    "Main",
+    "Main/Aux"
+    ],
+    "stats": {
+    "size": 0.5,
+    "armor": 1,
+    "hp": 8,
+    "evasion": 8,
+    "edef": 8,
+    "heatcap": 5,
+    "repcap": 5,
+    "sensor_range": 10,
+    "tech_attack": 0,
+    "save": 11,
+    "speed": 5,
+    "sp": 7
+    },
+    "traits": [
+    {
+        "name": "Environmental Sealing:",
+        "description": "The Dorothy has resistance to environmental damage (such as Dangerous Terrain, extreme heat, void, extreme cold, et al) and cannot have Burn applied by environmental effec."
+    },
+    {
+        "name": "Adventurer:",
+        "description": "The Dorothy may climb and jump at full speed."
+    },
+    {
+        "name": "Emergency Boosters:",
+        "description": "The Dorothy always counts as having flight while underwater and 0g environments."
+    }
+    ],
+    "core_system": {
+    "name": "Emerald Class Emergency Response Kit",
+    "description": "The Emerald Emergency Response system uses Stripper-Swarm nanites to tear away at ruins and create armor and shelter to... well rescue people. What happens when you overclock the Hive that produces the nanites? Like with a Coldcore? Well They turn into the best damn suppression foam in the galactic arm! “Suppress” isn’t even the right word for its properties! It's a damn panacea!",
+    "active_name": "Suppression Foam",
+    "active_effect": "Create a burst 10 area. End all conditions that the Stabilize Action could end on friendly actors in this area. Hostile actors in this area must make an Agility save. On a failure, they are inflicted Nanite Coated (5), or Nanite Coated (2) on a successful save.",
+    "tags": [
+        {
+        "id": "tg_quick_action"
+        }],
+    "data_type": "frame",
+    "aptitude": {}
+    }
+}]

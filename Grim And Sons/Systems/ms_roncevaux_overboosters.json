@@ -1,4 +1,4 @@
-{
+[{
     "id": "ms_roncevaux_overboosters",
     "name": "Roncevaux Overboosters",
     "type": "System",
@@ -25,4 +25,4 @@
     "description": "You know what makes you faster? More boosters. This heavy system of extra fuel, boosters, and engine-hookups allows a Mech performing a Ram to do so much more than just slam into an enemy. It's really more of a shoulder tackle at this point, both mechs being rocketed in whatever direction Orlando choses.",
     "data_type": "system",
     "aptitude": {}
-}
+}]

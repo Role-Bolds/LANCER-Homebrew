@@ -1,4 +1,4 @@
-{
+[{
   "id": "ms_magnet_harness",
   "name": "MAGNET HARNESS",
   "type": "System",
@@ -18,4 +18,4 @@
   "description": "Designed using both conventional magnetics and the Union approved Hypermagnetic Systems, this large, bulky system of rotating metal bands help create a small magnetic field that allows an equipped mech to move through the dangerous terrain of 0G. And move up walls when down the gravity well, albeit very much… worse.",
   "data_type": "system",
   "aptitude": {}
-}
+}]

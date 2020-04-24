@@ -1,4 +1,4 @@
-{
+[{
     "id": "ms_ascalon_engines",
     "name": "Ascalon Engines",
     "type": "System",
@@ -25,4 +25,4 @@
     "description": "An engine overhaul, a Minovsky reactor, and rebuilt actuators make up this system, creating a mech capable of frankly insane speed. If your engine doesn’t melt out of your mech, no one will be able to escape your reach.",
     "data_type": "system",
     "aptitude": {}
-}
+}]

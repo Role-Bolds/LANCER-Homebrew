@@ -1,4 +1,4 @@
-{
+[{
     "name": "Short-Life Shielder",
     "type": "System",
     "sp": 2,
@@ -14,4 +14,4 @@
     "description": "We made a simple lil drone, it latches onto your friends as part of benefic code delivery that most mechs can broadcast to allies. When it latches on, it deploys a nice lil barrier! Either keeps your buddy where he is, or you can burn out the drone and shield for a nice big pop! It's sort of a sonic boom? Anyway, atmospheres don’t like it when you detonate warp-fields in them and it keeps assholes off your buddy’s back, that’s what’s important here.",
     "data_type": "system",
     "aptitude": {}
-}
+}]

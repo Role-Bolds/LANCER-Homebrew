@@ -1,4 +1,4 @@
-{
+[{
   "name": "“Golden Harp” Memetic Chaff",
   "type": "System",
   "sp": 3,
@@ -21,4 +21,4 @@
   "description": "Fun fact, this piece of tech is actually reverse-engineered experiment from the much newer Scheherazade’s data-vaults and worked into the aging Jack license in an attempt to enliven the brand. So far, it’s worked! Pilots report enhanced survivability and utility, and only a few half-melted Jacks. So really, all the kinks are worked out of it and the “Golden Harp” is going into full production in the upcoming quarter.",
   "data_type": "system",
   "aptitude": {}
-}
+}]

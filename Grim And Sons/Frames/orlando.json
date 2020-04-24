@@ -1,60 +1,61 @@
-{
-    "id": "mf_orlando",
-    "source": "G&S",
-    "name": "ORLANDO",
-    "mechtype": [
-        "Striker"
-    ],
-    "image_url": "https://i.imgur.com/hyDPHmH.png",
-    "y_pos": 28,
-    "description": "The Absolute Newest, the very Pinnacle of G&S Design, the Orlando is built to do one thing, and one thing alone. To lead the charge. Given only to Pilots with strong ties to the Grimm clan (or with the cash and prestige to get into such inner circles), the Orlando will be ready for full production within the standard year… If the tests keep going as well as they’re going at least. Lotta melted engines in this one. G&S promises that the full production run DEFINITELY won’t do the thing the prototypes sometimes do, which is get stuck in full gear and careen through a couple of buildings and off a cliff. Good news is the prototypes were going fast enough to activate the Curtana Active Shield! Bad news is they were going fast enough to give the test pilots whiplash of the everything.",
-    "mounts": [
-        "Main",
-        "Heavy"
-    ],
-    "stats": {
-        "size": 1,
-        "armor": 1,
-        "hp": 10,
-        "evasion": 8,
-        "edef": 6,
-        "heatcap": 4,
-        "repcap": 4,
-        "sensor_range": 5,
-        "tech_attack": -2,
-        "save": 10,
-        "speed": 6,
-        "sp": 6
+[{
+"id": "mf_orlando",
+"source": "G&S",
+"name": "ORLANDO",
+"mechtype": [
+    "Striker"
+],
+"image_url": "https://i.imgur.com/hyDPHmH.png",
+"y_pos": 28,
+"description": "The Absolute Newest, the very Pinnacle of G&S Design, the Orlando is built to do one thing, and one thing alone. To lead the charge. Given only to Pilots with strong ties to the Grimm clan (or with the cash and prestige to get into such inner circles), the Orlando will be ready for full production within the standard year… If the tests keep going as well as they’re going at least. Lotta melted engines in this one. G&S promises that the full production run DEFINITELY won’t do the thing the prototypes sometimes do, which is get stuck in full gear and careen through a couple of buildings and off a cliff. Good news is the prototypes were going fast enough to activate the Curtana Active Shield! Bad news is they were going fast enough to give the test pilots whiplash of the everything.",
+"mounts": [
+    "Main",
+    "Heavy"
+],
+"stats": {
+    "size": 1,
+    "armor": 1,
+    "hp": 10,
+    "evasion": 8,
+    "edef": 6,
+    "heatcap": 4,
+    "repcap": 4,
+    "sensor_range": 5,
+    "tech_attack": -2,
+    "save": 10,
+    "speed": 6,
+    "sp": 6
+},
+"traits": [
+    {
+        "name": "Curtana Passive Shields",
+        "description": "he Orlando has resistance to all damage while moving and always counts as size 3 when making Rams."
     },
-    "traits": [
+    {
+        "name": "Momentum",
+        "description": "When the Orlando inflicts involuntary movement as part of any action, it can Slide the same number of spaces afterwards as a free action or reaction, as long as it moves towards its target by the most direct route possible."
+    },
+    {
+        "name": "Slam",
+        "description": "1/round when the Orlando knocks a character into a wall, mech, or other obstruction that would cause it to stop moving, it’s target takes 2 kinetic damage and becomes impaired until the end of its next turn."
+    },
+    {
+        "name": "Exposed Reactor",
+        "description": "The Orlando has +1 Difficulty on all Engineering checks and saves."
+    }
+],
+"core_system": {
+    "name": "CURTANA Shield Systems",
+    "description": "A sort of warp-shield not unlike that found on the HA Saladin, the CURTANA was designed to be used by small spaceships to combat the dangers of atmospheric reentry. That it is now strapped into the Orlando it comes with the problem that Orlando’s engines only generate enough power to activate a weak barrier while under high speeds. If one was to say, dump the full might of a Coldcore engine into the engines and the linked Curtana system however... One could create a massive ‘lance’ of force directed dead ahead!",
+    "active_name": "Holy Kingdom Charge",
+    "active_effect": "When you use this action, your mech begins to rev its engines up to speed. Until the start of your next turn, you are immobilized. If you Overheat or lose a point of Structure, you stop revving and are refunded your Core Power. At the start of your next turn, repeat this full action then draw a Line 20 that is 3 spaces wide from your mech’s position, then place your mech adjacent to the end of this line. All actors caught in this area must make an Agility save at +1 Difficulty or be knocked to the outer edge of the Line, knocked Prone, and suffer 6d6 AP Kinetic Damage. A successful save halves the damage and pushes them to the outer edge of the line. Any obstacles or terrain in the Line are assumed to be smashed through at frankly reckless speeds.",
+    "tags": [
         {
-            "name": "Curtana Passive Shields",
-            "description": "he Orlando has resistance to all damage while moving and always counts as size 3 when making Rams."
-        },
-        {
-            "name": "Momentum",
-            "description": "When the Orlando inflicts involuntary movement as part of any action, it can Slide the same number of spaces afterwards as a free action or reaction, as long as it moves towards its target by the most direct route possible."
-        },
-        {
-            "name": "Slam",
-            "description": "1/round when the Orlando knocks a character into a wall, mech, or other obstruction that would cause it to stop moving, it’s target takes 2 kinetic damage and becomes impaired until the end of its next turn."
-        },
-        {
-            "name": "Exposed Reactor",
-            "description": "The Orlando has +1 Difficulty on all Engineering checks and saves."
+            "id": "tg_full_action"
         }
-    ],
-    "core_system": {
-        "name": "CURTANA Shield Systems",
-        "description": "A sort of warp-shield not unlike that found on the HA Saladin, the CURTANA was designed to be used by small spaceships to combat the dangers of atmospheric reentry. That it is now strapped into the Orlando it comes with the problem that Orlando’s engines only generate enough power to activate a weak barrier while under high speeds. If one was to say, dump the full might of a Coldcore engine into the engines and the linked Curtana system however... One could create a massive ‘lance’ of force directed dead ahead!",
-        "active_name": "Holy Kingdom Charge",
-        "active_effect": "When you use this action, your mech begins to rev its engines up to speed. Until the start of your next turn, you are immobilized. If you Overheat or lose a point of Structure, you stop revving and are refunded your Core Power. At the start of your next turn, repeat this full action then draw a Line 20 that is 3 spaces wide from your mech’s position, then place your mech adjacent to the end of this line. All actors caught in this area must make an Agility save at +1 Difficulty or be knocked to the outer edge of the Line, knocked Prone, and suffer 6d6 AP Kinetic Damage. A successful save halves the damage and pushes them to the outer edge of the line. Any obstacles or terrain in the Line are assumed to be smashed through at frankly reckless speeds.",
-        "tags": [
-            {
-                "id": "tg_full_action"
-            }
-        ]
-    },
-    "data_type": "frame",
-    "aptitude": {}
+    ]
+},
+"data_type": "frame",
+"aptitude": {}
 }
+]

@@ -1,4 +1,4 @@
-{
+[{
     "name": "Sniper-Drone 'Onini'",
     "type": "Drone",
     "sp": 3,
@@ -15,4 +15,4 @@
     "description": "A serpentine drone that, when deployed, coils itself up into place and waits. What does it wait for? It waits for someone to light up on your local tacnet. Then it lights them up with a medium-powered rifle built into it. Simple, right? Br’er Spider tied Onini to a stick and made him promise to help him... So Onini will help you too!",
     "data_type": "system",
     "aptitude": {}
-}
+}]

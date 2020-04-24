@@ -1,4 +1,4 @@
-{
+[{
   "id": "ms_magneton_crusher",
   "name": "MAGNETON CRUSHER",
   "type": "System",
@@ -18,4 +18,4 @@
   "description": "A modification of the Magnet Harness (a really simple but potentially explosive modification) allows for a localized “big crush” effect, sending mech scaled enemies to their knees as their mechs suddenly struggle with a sudden crushing weight on important systems.",
   "data_type": "system",
   "aptitude": {}
-}
+}]

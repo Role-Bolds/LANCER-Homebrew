@@ -1,4 +1,4 @@
-{
+[{
     "name": "Gum-Doll Mines",
     "type": "Deployable",
     "sp": 2,
@@ -15,4 +15,4 @@
     "description": "The Gum-Doll trap is simple really, a mine packed with less-than-damaging explosives and rapidly hardening polymer that stops enemies in their tracks. The most advanced technology in it is the most interesting, however, using an experimental “Memetic Camouflage” that feeds false data towards any enemy computer system, temporarily disguising the mines as Friendlies.",
     "data_type": "system",
     "aptitude": {}
-}
+}]

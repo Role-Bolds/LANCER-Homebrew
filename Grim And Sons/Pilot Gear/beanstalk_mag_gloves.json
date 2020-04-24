@@ -1,4 +1,4 @@
-{
+[{
 "name": "“Beanstalk” Mag Gloves",
 "type": "gear",
 "description": "Meant for use in Null-Gravity construction and even more specifically, for use in the internal wiring of orbital colonies; the mag-gloves provided by G&S are some of the finest available. They turn on and off with a clap or a command word and are capable of finding purchase just about anywhere. \nA pilot must be wearing a suit of armor to benefit from this enhancement. As a free action, a pilot with this enhancement may latch onto a friendly mech and move with them, sharing their square and benefiting from hard cover. Additionally you may climb any surface the GM deems reasonable for you to do so when equipped with this enhancement.",
@@ -7,4 +7,4 @@
     "id": "tg_gear"
   }
 ]
-}
+}]

@@ -1,4 +1,4 @@
-{
+[{
   "name": "Seven-League Suit",
   "type": "armor",
   "description": "A hardsuit featuring the experimental “Seven-Leagues” Boosters has the unfortunate tendency to either shred the muscles of unprepared pilots or just subject them to unacceptable levels of G-Force without proper padding. Either way you gotta pay the Fast Tax. \nYou may jump at normal speed and you may, when you move or dash, take 1 pilot damage for +3 Speed on that action.",
@@ -12,4 +12,4 @@
   "evasion": 10,
   "edef": 10,
   "speed": 5
-}
+}]
