@@ -25,65 +25,14 @@
         "counters": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ICounterData"
+            "$ref": "definitions.json#/definitions/ICounterData"
           }
         },
         "effect": {
-          "oneOf":[
-            {"type": "string"},
-            {"type": "object",
-              "properties": {
-                "effect_type": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "activation": {
-                  "type": "string"
-                },
-                "detail": {
-                  "type": "string"
-                },
-                "count": {
-                  "type": "number"
-                },
-                "size": {
-                  "type": "number"
-                },
-                "edef": {
-                  "type": "number"
-                },
-                "hp": {
-                  "type": "number"
-                },
-                "evasion": {
-                  "type": "number"
-                },
-                "tags": {
-                  "$ref": "#/definitions/ITagData"
-                },
-                "options": {
-                  "type": "object",
-                  "properties": {
-                    "name": {
-                      "type": "string"
-                    },
-                    "detail": {
-                      "type": "string"
-                    }
-                  },
-                  "required": [
-                    "name",
-                    "detail"
-                  ]
-                }
-              }
-            }
-          ]
+          "$ref": "definitions.json#/definitions/effect"
         },
         "type": {
-          "$ref": "#/definitions/SystemType"
+          "$ref": "definitions.json#/definitions/SystemType"
         },
         "sp": {
           "type": "number"
@@ -91,7 +40,7 @@
         "tags": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ITagData"
+            "$ref": "definitions.json#/definitions/ITagData"
           }
         },
         "talent_item": {
@@ -111,65 +60,6 @@
         "sp",
         "tags",
         "type"
-      ]
-    },
-    "ICounterData": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-        "min": {
-          "type": "number"
-        },
-        "max": {
-          "type": "number"
-        },
-        "defaultValue": {
-          "type": "number"
-        },
-        "custom": {
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "id",
-        "name"
-      ]
-    },
-    "SystemType": {
-      "enum": [
-        "AI",
-        "Armor",
-        "Deployable",
-        "Drone",
-        "Flight System",
-        "Integrated",
-        "Mod",
-        "Shield",
-        "System",
-        "Tech"
-      ],
-      "type": "string"
-    },
-    "ITagData": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "val": {
-          "type": [
-            "string",
-            "number"
-          ]
-        }
-      },
-      "required": [
-        "id"
       ]
     }
   },

@@ -55,7 +55,7 @@
           }
         },
         "core_system": {
-          "$ref": "#/definitions/ICoreData"
+          "$ref": "definitions.json#/definitions/ICoreData"
         },
         "image_url": {
           "type": "string"
@@ -66,7 +66,7 @@
         "counters": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ICounterData"
+            "$ref": "definitions.json#/definitions/ICounterData"
           }
         }
       },
@@ -154,97 +154,6 @@
       },
       "required": [
         "description",
-        "name"
-      ]
-    },
-    "ICoreData": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "description": {
-          "type": "string"
-        },
-        "integrated": {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id"
-          ]
-        },
-        "passive_name": {
-          "type": "string"
-        },
-        "passive_effect": {
-          "type": "string"
-        },
-        "active_name": {
-          "type": "string"
-        },
-        "active_effect": {
-          "type": "string"
-        },
-        "tags": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/ITagData"
-          }
-        }
-      },
-      "required": [
-        "active_effect",
-        "active_name",
-        "description",
-        "name",
-        "tags"
-      ]
-    },
-    "ITagData": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "val": {
-          "type": [
-            "string",
-            "number"
-          ]
-        }
-      },
-      "required": [
-        "id"
-      ]
-    },
-    "ICounterData": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-        "min": {
-          "type": "number"
-        },
-        "max": {
-          "type": "number"
-        },
-        "defaultValue": {
-          "type": "number"
-        },
-        "custom": {
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "id",
         "name"
       ]
     }

@@ -16,13 +16,13 @@
         "counters": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ICounterData"
+            "$ref": "definitions.json#/definitions/ICounterData"
           }
         },
         "ranks": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ITalentRank"
+            "$ref": "definitions.json#/definitions/ITalentRank"
           }
         }
       },
@@ -30,48 +30,6 @@
         "description",
         "name",
         "ranks"
-      ]
-    },
-    "ICounterData": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-        "min": {
-          "type": "number"
-        },
-        "max": {
-          "type": "number"
-        },
-        "defaultValue": {
-          "type": "number"
-        },
-        "custom": {
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "id",
-        "name"
-      ]
-    },
-    "ITalentRank": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "description": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "description",
-        "name"
       ]
     }
   },

@@ -16,39 +16,12 @@
         "counters": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ICounterData"
+            "$ref": "definitions.json#/definitions/ICounterData"
           }
         }
       },
       "required": [
         "description",
-        "name"
-      ]
-    },
-    "ICounterData": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-        "min": {
-          "type": "number"
-        },
-        "max": {
-          "type": "number"
-        },
-        "defaultValue": {
-          "type": "number"
-        },
-        "custom": {
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "id",
         "name"
       ]
     }

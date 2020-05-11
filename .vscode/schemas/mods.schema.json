@@ -25,11 +25,11 @@
         "counters": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ICounterData"
+            "$ref": "definitions.json#/definitions/ICounterData"
           }
         },
         "effect": {
-          "type": "string"
+          "$ref": "definitions.json#/definitions/effect"
         },
         "sp": {
           "type": "number"
@@ -37,7 +37,7 @@
         "tags": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ITagData"
+            "$ref": "definitions.json#/definitions/ITagData"
           }
         },
         "talent_item": {
@@ -78,14 +78,14 @@
         "added_tags": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ITagData"
+            "$ref": "definitions.json#/definitions/ITagData"
           }
         },
         "added_damage": {
-          "$ref": "#/definitions/IDamageData"
+          "$ref": "definitions.json#/definitions/IDamageData"
         },
         "added_range": {
-          "$ref": "#/definitions/IRangeData"
+          "$ref": "definitions.json#/definitions/IRangeData"
         }
       },
       "required": [
@@ -101,115 +101,6 @@
         "sp",
         "tags"
       ]
-    },
-    "ICounterData": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-        "min": {
-          "type": "number"
-        },
-        "max": {
-          "type": "number"
-        },
-        "defaultValue": {
-          "type": "number"
-        },
-        "custom": {
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "id",
-        "name"
-      ]
-    },
-    "ITagData": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "val": {
-          "type": [
-            "string",
-            "number"
-          ]
-        }
-      },
-      "required": [
-        "id"
-      ]
-    },
-    "IDamageData": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "$ref": "#/definitions/DamageType"
-        },
-        "val": {
-          "type": [
-            "string",
-            "number"
-          ]
-        },
-        "override": {
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "type",
-        "val"
-      ]
-    },
-    "DamageType": {
-      "enum": [
-        "Burn",
-        "Energy",
-        "Explosive",
-        "Heat",
-        "Kinetic",
-        "Variable"
-      ],
-      "type": "string"
-    },
-    "IRangeData": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "$ref": "#/definitions/RangeType"
-        },
-        "val": {
-          "type": "number"
-        },
-        "override": {
-          "type": "boolean"
-        },
-        "bonus": {
-          "type": "number"
-        }
-      },
-      "required": [
-        "type",
-        "val"
-      ]
-    },
-    "RangeType": {
-      "enum": [
-        "Blast",
-        "Burst",
-        "Cone",
-        "Line",
-        "Range",
-        "Threat",
-        "Thrown"
-      ],
-      "type": "string"
     }
   },
   "$schema": "http://json-schema.org/draft-07/schema#"

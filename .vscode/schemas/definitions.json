@@ -1,6 +1,4 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema",
-
     "definitions": {
         "effect": {
             "oneOf":[
@@ -83,6 +81,21 @@
                 "name"
             ]
         },
+        "ITalentRank": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "description",
+            "name"
+          ]
+        },
         "WeaponSize": {
         "enum": [
             "Auxiliary",
@@ -102,6 +115,21 @@
             "Rifle"
         ],
         "type": "string"
+        },
+        "SystemType": {
+          "enum": [
+            "AI",
+            "Armor",
+            "Deployable",
+            "Drone",
+            "Flight System",
+            "Integrated",
+            "Mod",
+            "Shield",
+            "System",
+            "Tech"
+          ],
+          "type": "string"
         },
         "IDamageData": {
         "type": "object",
@@ -185,5 +213,6 @@
             "id"
         ]
         }
-    }
+      },
+      "$schema": "http://json-schema.org/draft-07/schema"
 }

@@ -10,7 +10,7 @@ const archiver = require('archiver');
 const compileTime = new Date();
 
 const workingDir = `./Grim And Sons`; // The top level directory where 
-const debug = true; // Set [DBUG] messages on/true or off/false
+const debug = false; // Set [DBUG] messages on/true or off/false
 
 const config = JSON.parse(fs.readFileSync(`${workingDir}/lcp_manifest.json`));
 const manufacturers = JSON.parse(fs.readFileSync(`${workingDir}/manufacturers.json`));
@@ -44,7 +44,7 @@ function makeJSONFile(type, DATA){
 
 function parseJSONFile(dir, file, wholeFile=false){
 
-    // DATA, dir, files | bake first object prefrence in
+    // DATA, dir, files | bake first object preference in
     let DATA = [];
 
     if(!wholeFile){
@@ -67,7 +67,15 @@ function parseJSONFile(dir, file, wholeFile=false){
 function jsonSort(type, optional=false){    
     let files = [];
     let DATA = [];
-    if(type === 'frames'){
+    if (type === 'core_bonus') {
+        const dir = `${workingDir}/Core Bonuses/`;
+        fs.readdirSync(dir).forEach(file => { files.push(file); });
+        dbug(`Initalizing Type: ${type}`);
+        for (i = 0; i < files.length; i++) {
+            console.log(`ITEM: ${dir}${files[i]}`);
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
+        }
+    } else if(type === 'frames'){
         const dir = `${workingDir}/Frames/`;
         fs.readdirSync(dir).forEach(file => {files.push(file);});
         dbug(`Initalizing Type: ${type}`);
@@ -75,25 +83,49 @@ function jsonSort(type, optional=false){
             console.log(`ITEM: ${dir}${files[i]}`);
             DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
         }
-    } else if(type === 'weapons'){
-        const dir = `${workingDir}/Weapons/`;
-        fs.readdirSync(dir).forEach(file => {files.push(file);});
+    } else if (type === 'manufacturers') {
+        const dir = `${workingDir}/Manufacturers/`;
+        fs.readdirSync(dir).forEach(file => { files.push(file); });
         dbug(`Initalizing Type: ${type}`);
         for (i = 0; i < files.length; i++) {
             console.log(`ITEM: ${dir}${files[i]}`);
             DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
         }
-    } else if(type === 'tags'){
-        const dir = `${workingDir}/Tags/`;
-        fs.readdirSync(dir).forEach(file => {files.push(file);});
-        dbug(`Initalizing Type: ${type}`);
-        for (i = 0; i < files.length; i++) {
-            console.log(`ITEM: ${dir}${files[i]}`);
-            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
-        }
-    } else if(type === 'mods'){
+    } else if (type === 'mods') {
         const dir = `${workingDir}/Mods/`;
-        fs.readdirSync(dir).forEach(file => {files.push(file);});
+        fs.readdirSync(dir).forEach(file => { files.push(file); });
+        dbug(`Initalizing Type: ${type}`);
+        for (i = 0; i < files.length; i++) {
+            console.log(`ITEM: ${dir}${files[i]}`);
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
+        }
+    } else if (type === 'npc_classes') {
+        const dir = `${workingDir}/NPC Classes/`;
+        fs.readdirSync(dir).forEach(file => { files.push(file); });
+        dbug(`Initalizing Type: ${type}`);
+        for (i = 0; i < files.length; i++) {
+            console.log(`ITEM: ${dir}${files[i]}`);
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
+        }
+    } else if (type === 'npc_features') {
+        const dir = `${workingDir}/NPC Features/`;
+        fs.readdirSync(dir).forEach(file => { files.push(file); });
+        dbug(`Initalizing Type: ${type}`);
+        for (i = 0; i < files.length; i++) {
+            console.log(`ITEM: ${dir}${files[i]}`);
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
+        }
+    } else if (type === 'npc_templates') {
+        const dir = `${workingDir}/NPC Templates/`;
+        fs.readdirSync(dir).forEach(file => { files.push(file); });
+        dbug(`Initalizing Type: ${type}`);
+        for (i = 0; i < files.length; i++) {
+            console.log(`ITEM: ${dir}${files[i]}`);
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
+        }
+    } else if (type === 'pilot_gear') {
+        const dir = `${workingDir}/Pilot Gear/`;
+        fs.readdirSync(dir).forEach(file => { files.push(file); });
         dbug(`Initalizing Type: ${type}`);
         for (i = 0; i < files.length; i++) {
             console.log(`ITEM: ${dir}${files[i]}`);
@@ -107,9 +139,17 @@ function jsonSort(type, optional=false){
             console.log(`ITEM: ${dir}${files[i]}`);
             DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
         }
-    } else if(type === 'core_bonuses'){
-        const dir = `${workingDir}/Core Bonuses/`;
-        fs.readdirSync(dir).forEach(file => {files.push(file);});
+    } else if (type === 'tags') {
+        const dir = `${workingDir}/Tags/`;
+        fs.readdirSync(dir).forEach(file => { files.push(file); });
+        dbug(`Initalizing Type: ${type}`);
+        for (i = 0; i < files.length; i++) {
+            console.log(`ITEM: ${dir}${files[i]}`);
+            DATA.push(parseJSONFile(dir, files[i])[0]); // Drop inherited []
+        }
+    } else if (type === 'weapons') {
+        const dir = `${workingDir}/Weapons/`;
+        fs.readdirSync(dir).forEach(file => { files.push(file); });
         dbug(`Initalizing Type: ${type}`);
         for (i = 0; i < files.length; i++) {
             console.log(`ITEM: ${dir}${files[i]}`);
@@ -170,8 +210,7 @@ function makeZip(optional=false){
     archive.finalize();
 }
 
-function compile(optional=false){
-    
+function compile(optional=false){ 
     if(!optional){
         makeDir(compileDir);
         jsonSort('frames');
@@ -189,6 +228,7 @@ function compile(optional=false){
         makeJSONFile(`${compileDirOptional}/lcp_manifest`, config);
     }
 }
+
 compile();
 makeZip();
 

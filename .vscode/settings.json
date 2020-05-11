@@ -90,5 +90,10 @@
 			],
 			"url": "./.vscode/schemas/weapons.schema.json"
 		}
+	],
+	"cSpell.words": [
+		"HHMMSS",
+		"Rowen",
+		"dbug"
 	]
 }

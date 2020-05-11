@@ -30,7 +30,7 @@
           "type": "string"
         },
         "effect": {
-          "type": "string"
+          "$ref": "definitions.json#/definitions/effect"
         },
         "type": {
           "$ref": "#/definitions/NpcFeatureType"
@@ -90,7 +90,7 @@
           "type": "string"
         },
         "effect": {
-          "type": "string"
+          "$ref": "definitions.json#/definitions/effect"
         },
         "type": {
           "type": "string",
@@ -104,13 +104,13 @@
         "range": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/IRangeData"
+            "$ref": "definitions.json#/definitions/IRangeData"
           }
         },
         "tags": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ITagData"
+            "$ref": "definitions.json#/definitions/ITagData"
           }
         },
         "locked": {
@@ -172,56 +172,6 @@
         "type"
       ]
     },
-    "IRangeData": {
-      "type": "object",
-      "properties": {
-        "type": {
-          "$ref": "#/definitions/RangeType"
-        },
-        "val": {
-          "type": "number"
-        },
-        "override": {
-          "type": "boolean"
-        },
-        "bonus": {
-          "type": "number"
-        }
-      },
-      "required": [
-        "type",
-        "val"
-      ]
-    },
-    "RangeType": {
-      "enum": [
-        "Blast",
-        "Burst",
-        "Cone",
-        "Line",
-        "Range",
-        "Threat",
-        "Thrown"
-      ],
-      "type": "string"
-    },
-    "ITagData": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "val": {
-          "type": [
-            "string",
-            "number"
-          ]
-        }
-      },
-      "required": [
-        "id"
-      ]
-    },
     "Pick<INpcReactionData,\"origin\"|\"name\"|\"effect\"|\"type\"|\"locked\"|\"bonus\"|\"trigger\">": {
       "type": "object",
       "properties": {
@@ -232,7 +182,7 @@
           "type": "string"
         },
         "effect": {
-          "type": "string"
+          "$ref": "definitions.json#/definitions/effect"
         },
         "type": {
           "type": "string",
@@ -270,7 +220,7 @@
           "type": "string"
         },
         "effect": {
-          "type": "string"
+          "$ref": "definitions.json#/definitions/effect"
         },
         "type": {
           "type": "string",
@@ -281,7 +231,7 @@
         "tags": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ITagData"
+            "$ref": "definitions.json#/definitions/ITagData"
           }
         },
         "locked": {
@@ -311,7 +261,7 @@
           "type": "string"
         },
         "effect": {
-          "type": "string"
+          "$ref": "definitions.json#/definitions/effect"
         },
         "type": {
           "type": "string",
@@ -322,7 +272,7 @@
         "tags": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ITagData"
+            "$ref": "definitions.json#/definitions/ITagData"
           }
         },
         "locked": {

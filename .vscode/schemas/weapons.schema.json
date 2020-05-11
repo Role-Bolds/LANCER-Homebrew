@@ -1,7 +1,7 @@
 {
   "type": "array",
   "items": {
-    "$ref": "#/definitions/Pick<IMechWeaponData,\"source\"|\"name\"|\"license\"|\"license_level\"|\"description\"|\"counters\"|\"effect\"|\"mount\"|\"type\"|\"damage\"|\"range\"|\"sp\"|\"tags\"|\"talent_item\"|\"frame_id\">"
+    "$ref": "definitions.json#/definitions/Pick<IMechWeaponData,\"source\"|\"name\"|\"license\"|\"license_level\"|\"description\"|\"counters\"|\"effect\"|\"mount\"|\"type\"|\"damage\"|\"range\"|\"sp\"|\"tags\"|\"talent_item\"|\"frame_id\">"
   },
   "definitions": {
     "Pick<IMechWeaponData,\"source\"|\"name\"|\"license\"|\"license_level\"|\"description\"|\"counters\"|\"effect\"|\"mount\"|\"type\"|\"damage\"|\"range\"|\"sp\"|\"tags\"|\"talent_item\"|\"frame_id\">": {
@@ -25,28 +25,28 @@
         "counters": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ICounterData"
+            "$ref": "definitions.json#/definitions/ICounterData"
           }
         },
         "effect": {
-          "type": "string"
+          "$ref": "definitions.json#/definitions/effect"
         },
         "mount": {
-          "$ref": "#/definitions/WeaponSize"
+          "$ref": "definitions.json#/definitions/WeaponSize"
         },
         "type": {
-          "$ref": "#/definitions/WeaponType"
+          "$ref": "definitions.json#/definitions/WeaponType"
         },
         "damage": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/IDamageData"
+            "$ref": "definitions.json#/definitions/IDamageData"
           }
         },
         "range": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/IRangeData"
+            "$ref": "definitions.json#/definitions/IRangeData"
           }
         },
         "sp": {
@@ -55,7 +55,7 @@
         "tags": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/ITagData"
+            "$ref": "definitions.json#/definitions/ITagData"
           }
         },
         "talent_item": {
